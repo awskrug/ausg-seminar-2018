@@ -1,7 +1,5 @@
 # AUSG_Seminar2018
 AUSG 세미나 자료
-
-## <일정 및 주제>
 ##### 1회차 : 1월 11일(목) - Python으로 비트코인 챗봇 만들기 가즈아ㅏㅏ with AWS EC2, Django
 ##### 2회차 : 1월 25일(목) - 팀플 과제를 여행하는 히치하이커를 위한 안내서 with AWS C9, AWS Elastic Beanstalk
 ##### 3회차 : 2월 1일(목) - AWS로 구현하는 손쉬운 앱 로그인 with AWS Cognito
