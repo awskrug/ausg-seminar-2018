@@ -1,0 +1,113 @@
+
+/* This Css is for small mobile */
+
+@media (max-width: 767px) {
+    .single_store {
+        border-left: 0px;
+    }
+    .last {
+        border-right: 0px;
+    }
+    .iphone {
+        float: none;
+        text-align: center;
+    }
+    .about_phone {
+        text-align: center;
+    }
+    .video {
+        padding-top: 50px;
+    }
+    .video-button {
+        text-align: center;
+    }
+    .call_to_action .col-md-3 {
+        text-align: center;
+        padding-top: 50px;
+    }
+    .single_fun_facts {
+        padding-bottom: 60px;
+    }
+    .about_phone img {
+        width: 100%;
+    }
+}
+/* This Css is for tablet */
+
+@media (min-width: 760px) {
+    .single_store {
+        border-left: 0px;
+    }
+    .last {
+        border-right: 0px;
+    }
+    .iphone {
+        float: none;
+        text-align: center;
+    }
+    .about_phone {
+        text-align: center;
+    }
+    .call_to_action .col-md-3 {
+        text-align: center;
+        padding-top: 50px;
+    }
+    .video-button {
+        text-align: center;
+    }
+    .single_fun_facts {
+        padding-bottom: 60px;
+    }
+    .video {
+        padding-top: 50px;
+    }
+}
+/* This Css is for Medium Deviced */
+
+@media (min-width: 992px) {
+    .last {
+        border-right: 1px solid #0F1217;
+    }
+    .single_store {
+        border-left: 1px solid #0F1217;
+    }
+    .iphone {
+        float: right;
+    }
+    .video-button {
+        text-align: left;
+    }
+    .call_to_action .col-md-3 {
+        text-align: right;
+        padding-top: 0px;
+    }
+    .single_fun_facts {
+        padding-bottom: 0px;
+    }
+    .video {
+        padding-top: 00px;
+    }
+}
+/* This Css is for large Deviced */
+
+@media (min-width: 1200px) {
+    .last {
+        border-right: 1px solid #0F1217;
+    }
+    .single_store {
+        border-left: 1px solid #0F1217;
+    }
+    .iphone {
+        float: right;
+    }
+    .video-button {
+        text-align: left;
+    }
+    .call_to_action .col-md-3 {
+        text-align: right;
+        padding-top: 0px;
+    }
+    .video {
+        padding-top: 0px;
+    }
+}
