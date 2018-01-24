@@ -28,12 +28,12 @@
 27. `User` 에 `ubuntu` 입력
 28. `Host` 에 이전에 복사해둔 `ip`를 입력
 29. `Copy key to Clipboard`를 입력
-30. 이전에 열어둔 터미널에서 `vi ~/.ssh/authorized_keys` 입력 -> `esc연타` 후에, `$` 입력하면 현재 라인끝으로 이동
+30. **이전에 열어둔 터미널에서 `vi ~/.ssh/authorized_keys` 입력 -> `esc연타` 후에, `$` 입력하면 현재 라인끝으로 이동
 31. 맨 끝에 `ctr + v` 붙여넣기
 32. `esc연타` 후에 -> `:wq`로 저장
 33. C9 생성 페이지에서 `Next Step` 선택
 34. `Create Environment` 선택
-35. `Next` 선택 -> Cloud9 CLI를 설치
+35. `Next`를 계속 선택 -> Cloud9 CLI를 설치
 36. Cloud 9이 다 만들어지면,  `grep . /etc/*-release` 명령어로 os가 `Ubuntu`임을 확인
 37. `mkdir helloc9` 을 하여 디렉토리를 만듬
 38. 이전 터미널에서 `ls` 명령어로 현재 ec2에 연결되어 있음을 확인
