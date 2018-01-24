@@ -1,5 +1,5 @@
 ## Chapter 5. Elastic BeanStalk With C9
-1. `pip install awsebcli --upgrade --user`
+1. **c9 터미널에서** `pip install awsebcli --upgrade --user` 입력
 2. `eb init --platform node.js --region ap-northeast-2`
 3. `.ebextensions` 디렉토리 만들고 `nodecommand`  파일 만들고 아래 내용 붙여넣기
 ```
