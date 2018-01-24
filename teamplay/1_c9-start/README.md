@@ -1,3 +1,7 @@
+## 아키텍쳐 개요
+이 모듈에서는 c9을 생성해봅니다. c9을 기본적으로 생성하면 private한 ec2 인스턴스를 1개 띄우고 그 인스턴스에 접근할 수 있습니다. 그 후에 web server인 `nginx`를 설치하고 reverse proxy를 사용하여 80번 포트(http)로 온 요청을 내부적으로 8080포트(express app)로 전달합니다. 
+
+
 ## Chapter 1. Cloud 9 시작하기
 1. [AWS Cloud9 랜딩 페이지 Amazon Web Services](https://aws.amazon.com/ko/cloud9/) 페이지에 접속합니다.
 2. **AWS Cloud9 시작하기** 선택
