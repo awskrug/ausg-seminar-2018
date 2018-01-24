@@ -24,7 +24,7 @@
 21. C9 관련 인스턴스를 클릭하고, 우측 하단 **퍼블릭 DNS** 복사.
 22. `http://퍼블릭 DNS 주소:8080` 에접속하면, hello c9을 볼 수 있음
 23. **nginx 설치 방법**: **c9 터미널**에서 `sudo yum install nginx` 입력
-24. **c9 터미널**에서 **sudo vi /etc/nginx/nginx.conf**
+24. **c9 터미널**에서 `sudo vi /etc/nginx/nginx.conf` 
 25. 아래로 스크롤해보면 
 - 다음의 내용을
 ```
