@@ -11,7 +11,6 @@ option_settings:
 5. `eb deploy` -> s3에 올리고 -> deploy
 6. [Elastic BeanStalk](https://ap-northeast-2.console.aws.amazon.com/elasticbeanstalk/home?region=ap-northeast-2#/welcome) 접속 -> URL 들어가보기
 7. 구성 -> 용량 -> 조정 트리거 -> CPU Utilization -> 단위 % -> 기간, 위반기간 1, 상위 임계값 50%, 하위 임계값 10%
-8. `sudo yum install httpd-tools` -> AB Test Tool 설치 
-	1. `ab -n 500000 -c 200 http://node-express-env.5w8ypy45cy.ap-northeast-2.elasticbeanstalk.com/` -> 
+8. `ab -n 500000 -c 200 http://엘라스틱 빈스톡 주소/`
 
 실습이 완료되면 다음모듈인 [Chapter 6. 삭제 가이드](../6_removeGuide/README.md) 으로 이동하십시오
