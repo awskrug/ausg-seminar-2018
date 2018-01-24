@@ -16,15 +16,29 @@
 13. **c9 Bash** 터미널에서 `npm start` 입력
 14. [AWS Console 싱가포르](https://ap-southeast-1.console.aws.amazon.com/console/home?region=ap-southeast-1) 에서 **EC2** 선택 
 15. 좌측 **NETWORKS & SECURITY** 탭에서, **보안 그룹** 선택
-16. 그룹 이름이 **aws-cloud9-blahblah...** 인 그룹 선택
+16. 그룹 이름이 **aws-cloud9-...** 와 비슷한 그룹 선택
 17. **작업** -> **인바운드 규칙 편집** 선택
 18. **규칙 추가** 선택 -> 포트 범위 `8080` 입력 -> 소스 **위치 무관** 선택 -> **저장** 버튼 선택
-19. **규칙 추가** 선택 -> 유형 **http** 선택 -> 저장
+19. **규칙 추가** 선택 -> 유형 **http** 선택 -> **저장** 버튼 선택
 20. 좌측 **인스턴스** 탭에서 **인스턴스** 선택
 21. C9 관련 인스턴스를 클릭하고, 우측 하단 **퍼블릭 DNS** 복사.
 22. `http://퍼블릭 DNS 주소:8080` 에접속하면, hello c9을 볼 수 있음
-23. **nginx 설치 방법**: 터미널에 `sudo yum install nginx`
-24. **Bash** 터미널에서 **sudo vi /etc/nginx/nginx.conf**
+23. **nginx 설치 방법**: **c9 터미널**에서 `sudo yum install nginx` 입력
+24. **c9 터미널**에서 **sudo vi /etc/nginx/nginx.conf**
+25. 아래로 스크롤해보면 
+- 다음의 내용을
+```
+.......blah blah blah
+
+server {
+    listen 80;
+    server_name your-domain-name.com;
+    location / {
+    }
+}
+```
+
+- 다음과 같이 변경
 ```
 .......blah blah blah
 
@@ -32,14 +46,14 @@ server {
     listen 80;
     server_name your-domain-name.com;
     location / { # 루트 디렉토리 접근하면 프록시
-        proxy_set_header   X-Real-IP $remote_addr; # 추가
-        proxy_set_header   Host      $http_host; # 추기
-        proxy_pass         http://127.0.0.1:8080; # 추가
+        proxy_set_header   X-Real-IP $remote_addr; # 추가할 내용
+        proxy_set_header   Host      $http_host; # 추가할 내용
+        proxy_pass         http://127.0.0.1:8080; # 추가할 내용
     }
 }
 ```
-24. **c9 Bash** 터미널에서 `sudo service nginx restart` -> nginx 서비스 재시작
-25. **c9 Bash** 터미널에서 `npm start` -> 서버 시작
-26. **c9 Bash** 터미널에서 `http://퍼블릭 DNS 주소` 에 접속하더라도, 8080 port번호 없이 `nginx`가 프록시 해줌
+26. **c9 Bash** 터미널에서 `sudo service nginx restart` -> nginx 서비스 재시작
+27. **c9 Bash** 터미널에서 `npm start` -> 서버 시작
+28. **c9 Bash** 터미널에서 `http://퍼블릭 DNS 주소` 에 접속하더라도, 8080 port번호 없이 `nginx`가 프록시 해줌
 
 실습이 완료되면 다음모듈인 [Chapter 2. Cloud9 & EC2 접속](../2_c9-ec2/README.md) 으로 이동하십시오
