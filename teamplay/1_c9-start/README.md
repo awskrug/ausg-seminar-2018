@@ -9,10 +9,10 @@
 (4시간 뒤에 자동으로 c9이 생성한 EC2 instance를 종료함으로써 비용을 절약합니다. 만약 **Never** 옵션을 선택하면 EC2가 24시간 동작하므로, 프리티어가 종료되고 credit이 없다면 과금될 수 있습니다)
 8. 우측 하단에 **Next Step** 선택
 9. 기본 설정을 유지한채로, **Create environment** 선택하고, 인스턴스가 만들어 질 때 까지 3분정도 기다립니다.
-10. **Bash** 터미널에서 `grep . /etc/*-release` 입력해서 운영체제 확인 -> **Amazon Linux**
-11. **Bash** 터미널에서 `git clone https://github.com/awskrug/ausg-seminar-2018.git 을 입력
-12. **Bash** 터미널에서 `cd ausg-seminar-2018/teamplay/helloc9` 을 입력
-13. **Bash** 터미널에서 `npm install` 입력
+10. **c9 Bash** 터미널에서 `grep . /etc/*-release` 입력해서 운영체제 확인 -> **Amazon Linux**
+11. **c9 Bash** 터미널에서 `git clone https://github.com/awskrug/ausg-seminar-2018.git 을 입력
+12. **c9 Bash** 터미널에서 `cd ausg-seminar-2018/teamplay/helloc9` 을 입력
+13. **c9 Bash** 터미널에서 `npm install` 입력
 14. [AWS Console 싱가포르](https://ap-southeast-1.console.aws.amazon.com/console/home?region=ap-southeast-1) 에서 **EC2** 선택 
 15. 좌측 **NETWORKS & SECURITY** 탭에서, 보안 그룹 선택
 16. 그룹 이름이 **aws-cloud9-***** 인 그룹 선택
@@ -37,8 +37,8 @@ server {
     }
 }
 ```
-24. **Bash**  `sudo service nginx restart` -> nginx 서비스 재시작
-25. **Bash** `npm start` -> 서버 시작
-26. **Bash** `http://퍼블릭 DNS 주소` 에 접속하더라도, 8080 port번호 없이 `nginx`가 프록시 해줌
+24. **c9 Bash** 터미널에서 `sudo service nginx restart` -> nginx 서비스 재시작
+25. **c9 Bash** 터미널에서 `npm start` -> 서버 시작
+26. **c9 Bash** 터미널에서 `http://퍼블릭 DNS 주소` 에 접속하더라도, 8080 port번호 없이 `nginx`가 프록시 해줌
 
 실습이 완료되면 다음모듈인 [Chapter 2. Cloud9 & EC2 접속](../c9-ec2/README.md) 으로 이동하십시오
