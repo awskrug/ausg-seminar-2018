@@ -49,3 +49,6 @@
 * **한 명 이상의 사용자가 ....** **체크박스** 선택
 * **예, 삭제** 선택
 
+축하합니다! 모든 실습을 마치셨습니다. 더 자세한 정보를 알고 싶으시다면 다음 페이지를 방문해보세요!
+- [AWS C9](https://docs.aws.amazon.com/ko_kr/cloud9/latest/user-guide/welcome.html)
+- [AWS Elastic Beanstalk](https://docs.aws.amazon.com/ko_kr/elasticbeanstalk/latest/dg/GettingStarted.html)
