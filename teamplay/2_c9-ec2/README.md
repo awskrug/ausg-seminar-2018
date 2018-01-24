@@ -28,7 +28,7 @@
 27. **User** 에 `ubuntu` 입력
 28. **Host** 에 이전에 복사해둔 `ip`를 입력
 29. **Copy key to Clipboard**를 입력
-30. **이전에 열어둔 터미널에서 `vi ~/.ssh/authorized_keys` 입력 -> `esc연타` 후에, `$` 입력하면 현재 라인끝으로 이동
+30. **이전에 열어둔 터미널**에서 `vi ~/.ssh/authorized_keys` 입력 -> `esc연타` 후에, `$` 입력하면 현재 라인끝으로 이동
 31. 맨 끝에 `ctr + v` 붙여넣기
 32. `esc연타` 후에 -> `:wq`로 저장
 33. c9 생성 페이지에서 `Next Step` 선택
