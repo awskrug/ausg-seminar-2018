@@ -1,15 +1,15 @@
 ## Chapter 2. Cloud9 & EC2 접속
 1. [AWS Console 서울](https://ap-northeast-2.console.aws.amazon.com/console/home?region=ap-northeast-2#)
-2. `EC2` 선택
-3. `인스턴스 시작` 선택
-4. `Ubuntu Server 16.04 LTS (HVM), SSD Volume Type` 선택
-5. `t2.micro` 선택
-6. `검토 및 시작` 선택
-7. `시작` 선택
-8. `새 키 페어 생성` 선택
-9. *키 페어 이름* 에 `c9connect`  입력
-10. *키 페어 다운로드* 선택
-11. *인스턴스 시작* 선택 -> *인스턴스 보기 선택*
+2. **EC2** 선택
+3. **인스턴스 시작** 선택
+4. **Ubuntu Server 16.04 LTS (HVM), SSD Volume Type** 선택
+5. **t2.micro** 선택
+6. **검토 및 시작** 선택
+7. **시작** 선택
+8. **새 키 페어 생성** 선택
+9. **키 페어 이름** 에 **c9connect** 입력
+10. **키 페어 다운로드** 선택
+11. **인스턴스 시작** 선택 -> **인스턴스 보기 선택**
 12. 터미널에서, `chmod 400 c9connect.pem` 권한부여
 13. 인스턴스를 선택하고 우측 하단의 `IPv4 퍼블릭 IP` 의 ip를 복사해둡니다. -> 이후에 사용할 것(ex. `13.124.12.140`)
 14. 인스턴스 선택후, *연결* 선택
