@@ -20,4 +20,4 @@
 * [Chapter 4. Elastic BeanStalk](4_eb/README.md)
 * [Chapter 5. Elastic BeanStalk With C9](5_ebWithC9/README.md)
 
-워크샵을 마친 후에는 [삭제 가이드](6_removeGuide/README.md) 에 따라 생성 된 모든 리소스를 삭제할 수 있습니다.
+**중요)** 워크샵을 마친 후에는 [삭제 가이드](6_removeGuide/README.md) 에 따라 생성 된 모든 리소스를 삭제할 수 있습니다.
