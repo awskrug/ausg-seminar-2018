@@ -1,7 +1,8 @@
 ## Chapter 5. Elastic BeanStalk With C9
 1. **c9 터미널에서** `pip install awsebcli --upgrade --user` 입력
 1. **c9 터미널에서** `eb init --platform node.js --region ap-northeast-2` 입력
-1. `.ebextensions` 디렉토리 만들고 `nodecommand.config`  파일 만들고 아래 내용 붙여넣기
+1. `c9only/ausg-seminar-2018/teamplay/helloc9`에 `.ebextensions`의 이름을 가지는 새로운 디렉토리 만든다
+1. `c9only/ausg-seminar-2018/teamplay/helloc9/.ebextensions/nodecommand.config`의 이름을 가지는 파일 만들고 아래 내용 붙여넣기
 ```
 option_settings:
   aws:elasticbeanstalk:container:nodejs:
