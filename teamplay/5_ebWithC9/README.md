@@ -39,7 +39,7 @@ router.get('/', function(req, res, next) {
 
 module.exports = router;
 ```
-7. **c9 터미널에서** `eb deploy`을 
+7. **c9 터미널에서** `eb deploy`을 입력
 8. [Elastic BeanStalk](https://ap-northeast-2.console.aws.amazon.com/elasticbeanstalk/home?region=ap-northeast-2#/welcome) 접속
 9. 좌측 탭 **구성** 선택
 10. **용량** 탭 선택
