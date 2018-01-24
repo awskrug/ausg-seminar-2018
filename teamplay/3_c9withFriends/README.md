@@ -10,6 +10,7 @@
 1. **친구는 이메일로 온 메일에 접속하여 비밀번호를 변경 후 접속해야 함**
 1. **친구**는 **cloud9** 말고는 다른 리소스에 접근할 권한이 없음
 1. 다시 콘솔에서 **Invite Member** 에 친구의 ID 입력-> **Invite**
-1. 친구는 Cloud 9 좌측에서 **Shared with you** -> 이전에 만든 환경 접속
+1. 초대받은 친구는 Cloud 9 **좌측 탭**에서 **Shared with you** -> 이전에 만든 환경 c9 접속
+1. 동시에 같은 프로젝트를 편집할 수 있음
 
 실습이 완료되면 다음모듈인 [Chapter 4. Elastic BeanStalk](../4_eb/README.md) 으로 이동하십시오
