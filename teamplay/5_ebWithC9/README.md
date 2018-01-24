@@ -2,7 +2,7 @@
 1. **c9 터미널에서** `pip install awsebcli --upgrade --user` 입력
 2. **c9 터미널에서** `eb init --platform node.js --region ap-northeast-2` 입력
 3. `c9only/ausg-seminar-2018/teamplay/helloc9`에 `.ebextensions` 디렉토리를 만든다
-4. `c9only/ausg-seminar-2018/teamplay/helloc9/.ebextensions/nodecommand.config`의 이름을 가지는 파일 만들고 아래 내용 붙여넣기 후 
+4. `c9only/ausg-seminar-2018/teamplay/helloc9/.ebextensions`에 `nodecommand.config` 파일 만들고 아래 내용 붙여넣기 후 
   저장
   ```
   option_settings:
