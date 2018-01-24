@@ -23,19 +23,19 @@
 22. **AWS Cloud9 시작하기** 선택
 23. **아시아 태평양 (싱가포르)** 선택
 24. 주황색 **Create environment** 선택
-25.  `Name` 칸에 `c9connect` 를 적고 우측 하단 `Next step` 선택
-26. `Environment type` 에 `Connect and run in remote server (SSH)` 선택
-27. `User` 에 `ubuntu` 입력
-28. `Host` 에 이전에 복사해둔 `ip`를 입력
-29. `Copy key to Clipboard`를 입력
+25.  **Name** 칸에 `c9connect` 를 적고 우측 하단 **Next step** 선택
+26. **Environment type** 에 **Connect and run in remote server (SSH)** 선택
+27. **User** 에 `ubuntu` 입력
+28. **Host** 에 이전에 복사해둔 `ip`를 입력
+29. **Copy key to Clipboard**를 입력
 30. **이전에 열어둔 터미널에서 `vi ~/.ssh/authorized_keys` 입력 -> `esc연타` 후에, `$` 입력하면 현재 라인끝으로 이동
 31. 맨 끝에 `ctr + v` 붙여넣기
 32. `esc연타` 후에 -> `:wq`로 저장
-33. C9 생성 페이지에서 `Next Step` 선택
+33. c9 생성 페이지에서 `Next Step` 선택
 34. `Create Environment` 선택
 35. `Next`를 계속 선택 -> Cloud9 CLI를 설치
-36. Cloud 9이 다 만들어지면,  `grep . /etc/*-release` 명령어로 os가 `Ubuntu`임을 확인
-37. `mkdir helloc9` 을 하여 디렉토리를 만듬
-38. 이전 터미널에서 `ls` 명령어로 현재 ec2에 연결되어 있음을 확인
+36. c9이 다 만들어지면, **c9 터미널** `grep . /etc/*-release` 명령어로 os가 `Ubuntu`임을 확인
+37. **c9 터미널**에서 `mkdir helloc9` 을 하여 디렉토리를 만듬
+38. **이전 열어둔 로컬 터미널**에서 `ls` 명령어로 현재 ec2에 연결되어 있음을 확인
 
 실습이 완료되면 다음모듈인 [Chapter 3. C9 친구와 작업하기](../3_c9withFriends/README.md) 으로 이동하십시오
