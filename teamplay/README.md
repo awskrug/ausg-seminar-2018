@@ -14,10 +14,10 @@
 웹 애플리케이션 UI를 테스트 할 때 Chrome 또는 Firefox의 최신 버전을 사용하는 것이 좋습니다.
 
 ## 실습 모듈
-* [Chapter 1. Cloud 9 시작하기](1_c9-start/README.md)
-* [Chapter 2. Cloud9 & EC2 접속](2_c9-ec2/README.md)
-* [Chapter 3. C9 친구와 작업하기](3_c9withFriends/README.md)
-* [Chapter 4. Elastic BeanStalk](4_eb/README.md)
-* [Chapter 5. Elastic BeanStalk With C9](5_ebWithC9/README.md)
+* [Chapter 1. Cloud 9 시작하기](1_c9-start/)
+* [Chapter 2. Cloud9 & EC2 접속](2_c9-ec2/)
+* [Chapter 3. C9 친구와 작업하기](3_c9withFriends/)
+* [Chapter 4. Elastic BeanStalk](4_eb/)
+* [Chapter 5. Elastic BeanStalk With C9](5_ebWithC9/)
 
-**중요)** 워크샵을 마친 후에는 [삭제 가이드](6_removeGuide/README.md) 에 따라 생성 된 모든 리소스를 삭제할 수 있습니다.
+**중요)** 워크샵을 마친 후에는 [삭제 가이드](6_removeGuide/) 에 따라 생성 된 모든 리소스를 삭제할 수 있습니다.

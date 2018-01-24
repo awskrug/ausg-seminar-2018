@@ -56,4 +56,4 @@ server {
 27. **c9 Bash 터미널**에서 `npm start` 입력 -> 서버 시작
 28. **c9 Bash 터미널**에서 `http://퍼블릭 DNS 주소` 에 접속하더라도, 8080 port번호 없이 `nginx`가 프록시 해줌
 
-실습이 완료되면 다음모듈인 [Chapter 2. Cloud9 & EC2 접속](../2_c9-ec2/README.md) 으로 이동하십시오
+실습이 완료되면 다음모듈인 [Chapter 2. Cloud9 & EC2 접속](../2_c9-ec2) 으로 이동하십시오

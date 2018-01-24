@@ -13,4 +13,4 @@
 1. 초대받은 친구는 Cloud 9 **좌측 탭**에서 **Shared with you** -> 이전에 만든 환경 c9 접속
 1. 동시에 같은 프로젝트를 편집할 수 있음
 
-실습이 완료되면 다음모듈인 [Chapter 4. Elastic BeanStalk](../4_eb/README.md) 으로 이동하십시오
+실습이 완료되면 다음모듈인 [Chapter 4. Elastic BeanStalk](../4_eb) 으로 이동하십시오

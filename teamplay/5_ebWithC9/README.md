@@ -55,4 +55,4 @@ module.exports = router;
 20. **취소 증분** 탭에 **-1** EC2 인스턴스 입력
 21. **c9 터미널에서** `ab -n 500000 -c 200 http://엘라스틱 빈스톡 주소/`
 
-실습이 완료되면 다음모듈인 [Chapter 6. 삭제 가이드](../6_removeGuide/README.md) 으로 이동하십시오
+실습이 완료되면 다음모듈인 [Chapter 6. 삭제 가이드](../6_removeGuide/) 으로 이동하십시오

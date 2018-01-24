@@ -9,4 +9,4 @@
 8. **구성** 탭에서는 롤링 업데이트와 배포설정를 할 수 있음
 9. **배포 방식** 탭에서는 애플리케이션 배포 + 구성 업데이트를 할 수 있음
 
-실습이 완료되면 다음모듈인 [5. Elastic BeanStalk With C9](../5_ebWithC9/README.md) 으로 이동하십시오
+실습이 완료되면 다음모듈인 [5. Elastic BeanStalk With C9](../5_ebWithC9) 으로 이동하십시오
