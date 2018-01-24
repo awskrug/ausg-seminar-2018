@@ -1,16 +1,43 @@
 ## Chapter 5. Elastic BeanStalk With C9
 1. **c9 터미널에서** `pip install awsebcli --upgrade --user` 입력
-2. **c9 터미널에서** `eb init --platform node.js --region ap-northeast-2` 입력
-3. `.ebextensions` 디렉토리 만들고 `nodecommand.config`  파일 만들고 아래 내용 붙여넣기
+1. **c9 터미널에서** `eb init --platform node.js --region ap-northeast-2` 입력
+1. `.ebextensions` 디렉토리 만들고 `nodecommand.config`  파일 만들고 아래 내용 붙여넣기
 ```
 option_settings:
   aws:elasticbeanstalk:container:nodejs:
     NodeCommand: "npm start"
 ```
-4. **c9 터미널에서** `eb create node-express-env`
-5. **c9 터미널에서** `eb deploy` -> s3에 올리고 -> deploy
-6. [Elastic BeanStalk](https://ap-northeast-2.console.aws.amazon.com/elasticbeanstalk/home?region=ap-northeast-2#/welcome) 접속
-7. 좌측 탭 **구성** 선택
+1. **c9 터미널에서** `eb create node-express-env`
+1. **c9 에디터에서** `c9only/ausg-seminar-2018/teamplay/helloc9/route/index.js`을 열기
+1. **c9 에디터에서** `c9only/ausg-seminar-2018/teamplay/helloc9/route/index.js`을 열기
+- 다음의 내용을
+```javascript
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'Hello C9' });
+});
+
+module.exports = router;
+```
+
+- 다음과 같이 변경합니다
+```javascript
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'Hello Elastic BeanStalk With C9' }); // 'Hello C9'을 -> 'Hello Elastic BeanStalk With C9' 로 변경
+});
+
+module.exports = router;
+```
+1. **c9 터미널에서** `eb deploy`을 
+1. [Elastic BeanStalk](https://ap-northeast-2.console.aws.amazon.com/elasticbeanstalk/home?region=ap-northeast-2#/welcome) 접속
+1. 좌측 탭 **구성** 선택
 1. **용량** 탭 선택
 1. **조정 쿨다운** `10`초 입력
 1. **조정 트리거** 탭에 **지표**를 **RequestCount**로 선택
