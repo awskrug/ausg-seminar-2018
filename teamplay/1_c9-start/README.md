@@ -13,6 +13,7 @@
 11. **c9 Bash** 터미널에서 `git clone https://github.com/awskrug/ausg-seminar-2018.git` 을 입력
 12. **c9 Bash** 터미널에서 `cd ausg-seminar-2018/teamplay/helloc9` 을 입력
 13. **c9 Bash** 터미널에서 `npm install` 입력
+13. **c9 Bash** 터미널에서 `npm start` 입력
 14. [AWS Console 싱가포르](https://ap-southeast-1.console.aws.amazon.com/console/home?region=ap-southeast-1) 에서 **EC2** 선택 
 15. 좌측 **NETWORKS & SECURITY** 탭에서, 보안 그룹 선택
 16. 그룹 이름이 **aws-cloud9-***** 인 그룹 선택
