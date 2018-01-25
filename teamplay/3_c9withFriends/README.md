@@ -1,3 +1,7 @@
+## 아키텍쳐 개요
+이 모듈에서는 C9을 통하여 만든 프로젝트를 외부 인원과 공유하여 사용해봅니다. 
+공유하기 이전에는 [IAM](http://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/introduction.html)을 사용하여 권한 정책을 사용자에게 부여할 수 있습니다.
+
 ## Chapter 3. C9 친구와 작업하기
 1. 우측 상단 **Share** 버튼 클릭
 1. **create a new user** 클릭

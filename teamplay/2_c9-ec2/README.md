@@ -1,3 +1,11 @@
+## 아키텍쳐 개요
+이 모듈에서는 EC2를 콘솔에서 생성해보고, 생성했던 EC2에 C9으로 접속해 보는 실습을 진행합니다.
+EC2를 SSH가 아니라 C9으로 접속하면, 여러명의 사용자가 동시편집이 가능하고 vim, linux 커맨드를 몰라도 손쉽게 작업할 수 있습니다.
+
+## 준비
+사용자가 만약 *Windows* 환경이라면 SSH에 접속하기 위하여 [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 또는 [cygwin](https://cygwin.com/install.html)이 필요합니다. 설치 후 모듈을 진행하십시오. 
+*MAC OS*라면 이미 ssh client가 세팅되어 있습니다. 모듈을 진행하십시오.
+
 ## Chapter 2. Cloud9 & EC2 접속
 1. [AWS Console 서울](https://ap-northeast-2.console.aws.amazon.com/console/home?region=ap-northeast-2#)
 2. **EC2** 선택

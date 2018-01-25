@@ -1,3 +1,7 @@
+## 아키텍쳐 개요
+이 모듈에서는 C9을 이용하여 어플리케이션을 편집하고, 외부 도구 없이도 바로 Elastic Beanstalk에 배포하는 실습을 진행합니다.
+강력한 동시 편집 기능을 가지고 있는 C9과 결합하여 
+
 ## Chapter 5. Elastic BeanStalk With C9
 1. **c9 터미널에서** `pip install awsebcli --upgrade --user` 입력
 2. **c9 터미널에서** `eb init --platform node.js --region ap-northeast-2` 입력
@@ -42,7 +46,7 @@ module.exports = router;
 7. **c9 터미널에서** `eb deploy`을 입력
 8. [Elastic BeanStalk](https://ap-northeast-2.console.aws.amazon.com/elasticbeanstalk/home?region=ap-northeast-2#/welcome) 접속
 9. 좌측 탭 **구성** 선택
-10. **용량** 탭 선택
+10. **용량(확장)** 탭 선택
 11. **조정 쿨다운** `10`초 입력
 12. **조정 트리거** 탭에 **지표**를 **NetworkOut**로 선택
 13. **통계** 탭에 **평균**을 선택
@@ -54,7 +58,7 @@ module.exports = router;
 19. **하위 임계** 탭에 **20000** 바이트 입력
 20. **취소 증분** 탭에 **-1** EC2 인스턴스 입력 -> (-1개씩 인스턴스 소멸)
 21. **c9 터미널에서** `ab -n 500000 -c 200 http://엘라스틱 빈스톡 주소/`
-22. **Elastic Beanstalk 웹 콘솔**의 상태 탭에서 Autoscale을 관찰함 (인스턴스가 2개 이상으로 늘어나는지)
+22. **Elastic Beanstalk 웹 콘솔**의 상태 탭에서 인스턴스가 2개 이상으로 늘어나는지 Autoscale을 관찰함 -> 약 5분정도 기다리십시오.
 
 ![load-balance](./../images/load-balance.png)
 
