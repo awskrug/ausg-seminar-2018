@@ -18,7 +18,7 @@ EC2를 SSH가 아니라 C9으로 접속하면, 여러명의 사용자가 동시�
 9. **키 페어 이름** 에 **c9connect** 입력
 10. **키 페어 다운로드** 선택
 11. **인스턴스 시작** 선택 -> **인스턴스 보기 선택**
-12. **로컬 터미널**에서 다운로드 받은 pem키에 다음 명령어를 입력함으로써 권한 변경 `chmod 400 c9connect.pem` -> 권한변경
+12. **로컬 터미널**에서 다운로드 받은 pem키에 다음 명령어를 입력함으로써 권한 변경 `chmod 400 c9connect.pem` -> 권한변경 (Mac OS, Linux 만 가능)
 13. 인스턴스를 선택하고 우측 하단의 **IPv4 퍼블릭 IP** 의 ip를 복사해둡니다. -> 이후에 사용할 것임.(ex. `13.124.12.140`)
 14. 인스턴스 선택후, **연결** 선택
 15. ssh로 시작하는 커맨드 복사 (ex. `ssh -i "c9connect.pem" ubuntu@ec2-13-125-1-37.ap-northeast-2.compute.amazonaws.com`)
@@ -34,7 +34,7 @@ EC2를 SSH가 아니라 C9으로 접속하면, 여러명의 사용자가 동시�
 25.  **Name** 칸에 `c9connect` 를 적고 우측 하단 **Next step** 선택
 26. **Environment type** 에 **Connect and run in remote server (SSH)** 선택
 27. **User** 에 `ubuntu` 입력
-28. **Host** 에 13. 에서 복사해둔 `ip`를 입력
+28. **Host** 에 13. 에서 복사해둔 EC2 인스턴스의 `ip`를 입력
 29. **Copy key to Clipboard**를 입력
 30. **이전에 열어둔 EC2에 접속되어있는 터미널**에서 `vi ~/.ssh/authorized_keys` 입력 -> `esc연타` 후에, `$` 입력하면 현재 라인끝으로 이동
 31. 맨 끝에 `ctr + v` 붙여넣기
