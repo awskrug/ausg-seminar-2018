@@ -23,10 +23,10 @@ EC2를 SSH가 아니라 C9으로 접속하면, 여러명의 사용자가 동시�
 14. 인스턴스 선택후, **연결** 선택
 15. ssh로 시작하는 커맨드 복사 (ex. `ssh -i "c9connect.pem" ubuntu@ec2-13-125-1-37.ap-northeast-2.compute.amazonaws.com`)
 16. **로컬 터미널**에서 15. 에서 복사한 커맨드 실행 -> yes 타이핑 -> 접속이 완료되면, 터미널을 그대로 열어둔다.
-17. **로컬 터미널**에서 `sudo apt-get update`
-18. **로컬 터미널**에서 `sudo apt-get install nodejs-legacy` -> *LTS, Current 버전 말고 legacy nodeJS 설치* -> *C9에서 ssh로 ec2에 접근하기 위함*
-19. **로컬 터미널**에서 `sudo apt-get install python2.7` 파이썬 설치
-20. **로컬 터미널**에서 `sudo apt-get install python-pip python-dev python-setuptools` 파이썬 종속성 설치
+17. EC2에 접속되면 **Ec2 터미널**에서 `sudo apt-get update`
+18. **Ec2 터미널**에서 `sudo apt-get install nodejs-legacy` -> *LTS, Current 버전 말고 legacy nodeJS 설치* -> *C9에서 ssh로 ec2에 접근하기 위함*
+19. **Ec2 터미널**에서 `sudo apt-get install python2.7` 파이썬 설치
+20. **Ec2 터미널**에서 `sudo apt-get install python-pip python-dev python-setuptools` 파이썬 종속성 설치
 21. [AWS Cloud9 랜딩 페이지 Amazon Web Services](https://aws.amazon.com/ko/cloud9/) 페이지에 접속합니다.
 22. **AWS Cloud9 시작하기** 선택
 23. **아시아 태평양 (싱가포르)** 선택
@@ -44,6 +44,6 @@ EC2를 SSH가 아니라 C9으로 접속하면, 여러명의 사용자가 동시�
 35. **Next**를 계속 선택 -> Cloud9 CLI를 설치하는 과정
 36. c9이 다 만들어지면, **c9 터미널** `grep . /etc/*-release` 입력 -> 명령어로 os가 `Ubuntu`임을 확인
 37. **c9 터미널**에서 `mkdir helloc9` 입력 -> 디렉토리를 만듬
-38. **이전 열어둔 로컬 터미널**에서 `ls` 입력 -> c9에서 만든 디렉토리가  현재 ec2에 연결되어 있음을 확인
+38. **이전 열어둔 Ec2 터미널**에서 `ls` 입력 -> c9에서 만든 디렉토리가  현재 ec2에 연결되어 있음을 확인
 
 실습이 완료되면 다음모듈인 [Chapter 3. C9 친구와 작업하기](../3_c9withFriends) 으로 이동하십시오
