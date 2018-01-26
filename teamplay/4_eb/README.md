@@ -1,6 +1,7 @@
 ## 아키텍쳐 개요
 이 모듈에서는 Elastic Beanstalk에 Demo Application을 올려봅니다.
 Elastic Beanstalk은 설정 없이 손쉽게 어플리케이션을 배포하고 스케일링 할 수 있는 서비스입니다.
+![sample_eb](./../images/sample_eb.png)
 
 ## Chapter 4. Elastic BeanStalk
 1. [Elastic BeanStalk](https://ap-northeast-2.console.aws.amazon.com/elasticbeanstalk/home?region=ap-northeast-2#/welcome) 접속
