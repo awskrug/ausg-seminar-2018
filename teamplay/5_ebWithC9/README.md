@@ -1,6 +1,7 @@
 ## 아키텍쳐 개요
 이 모듈에서는 C9을 이용하여 어플리케이션을 편집하고, 외부 도구 없이도 바로 Elastic Beanstalk에 배포하는 실습을 진행합니다.
 강력한 동시 편집 기능을 가지고 있는 C9과 배포가 간편한 Elastic Beanstalk를 결합하여 실습을 진행해봅니다.
+![c9witheb_arc](./../images/c9witheb_arc.png)
 
 ## Chapter 5. Elastic BeanStalk With C9
 1. **Chapter 1. 에서 진행한 c9only 이름의 c9 ide**에 접속한다
