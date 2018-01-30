@@ -14,3 +14,28 @@
 
 ### POSTMAN
 [POSTMAN 설치](https://www.getpostman.com/apps)
+
+
+
+
+## 세미나 진행
+
+1. 람다 소개
+2. 람다 예제 설명 및 실습
+3. S3 버켓 생성 및 정책 설정
+4. 이미지 리사이즈 설명 및 실습
+5. API GATEWAY 소개
+6. API GATEWAY 예제 설명 및 실습
+7. API GATEWAY, 이미지 리사이즈 함수와 연동
+8. POSTMAN을 사용하여 테스트 및 결과 확인
+9. 마무리
+
+
+
+### 참고 문서
+
+1. [람다인액션](http://book.naver.com/bookdb/book_detail.nhn?bid=12990912)
+
+2. [AWS Lambda 가볍게 시작하기](https://hyunseob.github.io/2017/05/27/aws-lambda-easy-start/)
+
+3. [AWS Lambda - API Gateway로 S3 파일 업로드 API 만들기](http://devstory.ibksplatform.com/2017/12/aws-lambda-api-gateway-s3-api-1-api.html)
