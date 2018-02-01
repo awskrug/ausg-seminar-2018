@@ -15,7 +15,8 @@
 ### POSTMAN
 [POSTMAN 설치](https://www.getpostman.com/apps)
 
-
+### SDK
+npm, node.js 6버전 이상
 
 
 ## 세미나 진행
