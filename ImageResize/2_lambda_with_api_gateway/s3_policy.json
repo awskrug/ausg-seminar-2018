@@ -6,7 +6,7 @@
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::ausg-manhyuk/images/*"
+            "Resource": "arn:aws:s3:::<S3-ORIGIN-BUCKET-NAME>/images/*"
         }
     ]
 }
