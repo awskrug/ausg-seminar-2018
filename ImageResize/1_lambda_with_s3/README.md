@@ -6,10 +6,11 @@
 1. [AWS S3 랜딩 페이지 Amazon Web Services](https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-2) 페이지에 접속
 
 2. **버킷 만들기** 클릭
-3. 버킷 이름 **<ausg-'USERNAME'>** 생성
-4. 다음 버튼을 눌러 버킷 생성
-5. 생성된 버킷을 클릭
-6. **images/** 폴더 생성
+3. 버킷 이름 **<ausg-'YOURNAME'>** 생성 
+4. 버킷 이름 **<ausg-'YOURNAME'-resized>** 생성 
+5. 다음 버튼을 눌러 버킷 생성
+6. 생성된 버킷을 클릭
+7. **images/** 폴더 생성
 
 # 람다 함수 생성하기
 
