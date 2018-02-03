@@ -19,7 +19,7 @@
 
 2. **함수 만들기** 클릭 (주의 서울리전에 생성!!)
 
-3. 이름 **createThumbnailLambda** /런타임 **Node.js 6.10** /역할 **사용자 지정 / 역할 생성** 선택후 새 역할 생성 /역할 이름 **lambda_basic_execution** (디폴트) / 오른쪽 아래 **허용** 버튼 클릭
+3. 이름 **createThumbnailLambda** / 런타임 **Node.js 6.10** / 역할 **사용자 지정 / 역할 생성** 선택후 새 역할 생성 /역할 이름 **lambda_basic_execution** (디폴트) / 오른쪽 아래 **허용** 버튼 클릭
 ![create_lambda](./images/create_lambda_function.png)    
 
 4. 왼쪽 사이드 바에서 **S3** 트리거 추가
@@ -155,7 +155,7 @@ npm install async gm util
 
 17. 상단 저장 클릭
 
-# IAM 권한 만들기
+# IAM 역할 만들기
 1. [IAM 콘솔 이동](https://console.aws.amazon.com/iam/home?region=ap-northeast-2#/home)
 
 2. 탭에서 정책을 선택한 뒤, 왼쪽 상단에 있는 '정책 생성' 버튼을 클릭합니다.
