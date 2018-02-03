@@ -19,12 +19,15 @@
 npm, node.js 6버전 이상
 
 
-## 세미나 진행
+## 세미나 진행 순서
 
-1. 람다 소개
-2. 람다 예제 설명 및 실습
-3. S3 버켓 생성 및 정책 설정
+### [1부 Lambda With S3](1_lambda_with_s3/)
+1. S3 버켓 생성
+2. 람다 소개
+3. 람다 예제 설명 및 실습
 4. 이미지 리사이즈 설명 및 실습
+
+### [2부 Lambda With API GATEWAY](2_lambda_with_api_gateway)
 5. API GATEWAY 소개
 6. API GATEWAY 예제 설명 및 실습
 7. API GATEWAY, 이미지 리사이즈 함수와 연동
