@@ -1,4 +1,4 @@
-## 2_api_gateway
+# 2_lambda_with_api_gateway
 
 
 ### S3 권한 설정

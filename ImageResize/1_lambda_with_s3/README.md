@@ -1,4 +1,4 @@
-### 1_lambda
+### 1_lambda_with_s3
 ## S3 버킷 생성, 람다 함수 생성, IAM 역할 생성
 ### ARN 저장
 
