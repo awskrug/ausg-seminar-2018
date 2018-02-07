@@ -6,7 +6,7 @@
 
 1. [AWS S3 랜딩 페이지 Amazon Web Services](https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-2) 페이지에 접속합니다
 
-2. **버킷 만들기**를 클릭 한뒤 버킷 이름 **ausg-'YOURNAME-origin'** 생성합니다
+2. **버킷 만들기**를 클릭 한뒤 버킷 이름 **ausg-'YOURNAME'** 생성합니다
 ![create_s3_bucket](./images/create_s3_bucket.png)
 
 3. 버킷 이름 **ausg-'YOURNAME'-resized** 으로 버켓을 한개 더 생성 합니다.
@@ -210,6 +210,6 @@ npm install async gm util
 S3 버켓을 생성하고, 람다 함수를 만들었으며 그에 맞는 역할까지 지정했습니다.
 
 
-S3에 ausg-YOURNAME-origin 버켓에 images/ 디렉토리 안에 자신의 이미지를 올리게 되면
+S3에 ausg-YOURNAME 버켓에 images/ 디렉토리 안에 자신의 이미지를 올리게 되면
 
 ausg-YOURNAMe-resized에 images/란 디렉토리 안에 리사이즈된 파일을 볼 수 있습니다.
