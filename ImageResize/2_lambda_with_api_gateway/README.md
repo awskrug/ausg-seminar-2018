@@ -1,50 +1,13 @@
 # 2_lambda_with_api_gateway
 
 
-### S3 권한 설정
-1. [AWS S3 랜딩 페이지 Amazon Web Services](https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-2) 페이지에 접속합니다
-
-2. 'ausg-YOURNAME-origin' 버켓에서 정책 탭을 클릭합니다
-![s3_set_policy](./images/s3_set_policy.png)
-
-3. 버킷정책 클릭 하고 정책을 입력하고 저장 버튼을 클릭합니다.
-```
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "AddPerm",
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::<S3-ORIGIN-BUCKET-NAME>/images/*"
-        }
-    ]
-}
-```
-
-5. CORS 구성 클릭 한 뒤, 코드를 입력하고 저장합니다.
-```
-<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
-<CORSRule>
-    <AllowedOrigin>*</AllowedOrigin>
-    <AllowedMethod>PUT</AllowedMethod>
-    <AllowedMethod>POST</AllowedMethod>
-    <AllowedMethod>GET</AllowedMethod>
-    <AllowedMethod>HEAD</AllowedMethod>
-    <MaxAgeSeconds>3000</MaxAgeSeconds>
-    <AllowedHeader>Authorization</AllowedHeader>
-</CORSRule>
-</CORSConfiguration>
-```
-
 ### IAM 역할 생성
 1. [IAM 콘솔 이동](https://console.aws.amazon.com/iam/home?region=ap-northeast-2#/home)
 
 2. 역할 탭에서 역할 생성을 클릭하고 Lambda를 선택합니다.
 ![iam_role_select_lambda](./images/iam_role_select_lambda.png)
 
-3. AmazonS3FullAccess 정책을 검색 해당 정책을 체크한뒤 다음 버튼을 클릭합니다.
+3. AmazonS3FullAccess 정책과 CloudWatchLogsFullAccess 정책을 체크한뒤 다음 버튼을 클릭합니다.
 ![iam_search_policy](./images/iam_search_policy.png)
 
 4. 역할 이름에 ImageUploadRole을 입력한뒤 역할 만들기 버튼을 클릭합니다.
