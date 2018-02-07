@@ -1,4 +1,4 @@
-# 초보자를 위한 AWS 뿌시기 4회 - 이미지 리사이즈 서버 만들기 with AWS LAMBDA
+# 초보자를 위한 AWS 뿌시기 4회 - 이미지 리사이즈 서비스 만들기 with AWS LAMBDA
 
 
 

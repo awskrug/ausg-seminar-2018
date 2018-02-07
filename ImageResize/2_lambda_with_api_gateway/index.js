@@ -52,7 +52,7 @@ let getFiles = function( parts ) {
         const fileName = part.filename
         const fileFullName = fileName;
 
-        const originBucket = '<S3-ORIGIN-BUCKET-NAME>/imgaes'
+        const originBucket = '<S3-ORIGIN-BUCKET-NAME>/images'
         const filefullPath = `https://s3.ap-northeast-2.amazonaws.com/${originBucket}/${fileFullName}`;
 
 
@@ -68,8 +68,7 @@ let getFiles = function( parts ) {
             name: fileName,
             fullPath: filefullPath
         };
-
         files.push( { params, uploadFile } )
     } );
     return files
-}
+  }
