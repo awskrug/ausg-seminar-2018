@@ -32,4 +32,4 @@
 11. Add New Domain을 클릭합니다
 12. 아까 등록한 도메인을 적습니다 (subdomain은 적지 않습니다 - Warning 오류는 무시하세요)
 
-### 축하드립니다. 이제 모든 준비가 끝났네요! Chapter 2. [Route 53 Hosted Zone 등록 (Mailgun을 이용해 내가 등록한 도메인으로 메일 받아보기)](2_route53/)로 이동하세요.
+### 축하드립니다. 이제 모든 준비가 끝났네요! Chapter 2. [Route 53 Hosted Zone 등록 (Mailgun을 이용해 내가 등록한 도메인으로 메일 받아보기)](../2_route53/)로 이동하세요.
