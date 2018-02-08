@@ -7,8 +7,8 @@
 - Route 53을 이용해 내 도메인을 AWS DNS 서비스에 연결해본다.
 - S3를 이용해 HTML, JS, CSS 등 정적 웹사이트를 내 도메인으로 인터넷에 배포해본다. (HTTP)
 - CloudFront를 이용해 S3로 배포된 정적 웹사이트를 HTTPS로 배포해본다.
-- Vue.js, React.js 등 최신 Frond-end Framework 패러다임에 대해 이해한다.
-- JS의 Module System을 이해하고 Webpack을 도입한다.
+- Vue.js, React.js 등 Frond-end Framework 패러다임에 대해 이해한다.
+- JavaScript의 Module System을 이해하고 Webpack을 도입한다.
 - S3 Webpack Plugin을 통해 배포 자동화를 경험해본다.
 
 #  필수 준비 사항
