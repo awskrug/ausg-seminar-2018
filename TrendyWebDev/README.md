@@ -11,7 +11,7 @@
 - JS의 Module System을 이해하고 Webpack을 도입한다.
 - S3 Webpack Plugin을 통해 배포 자동화를 경험해본다.
 
-#  반드시 미리 준비해주세요 제발요 (필수 준비 사항)
+#  필수 준비 사항
 
 ## PC 또는 Mac
 본 세션은 코딩 과정이 포함되어 있습니다. 또한 CLI(Command Line Interface) 조작이 꼭 필요합니다. 모바일 환경(iPhone, iPad, Android)에서는 진행이 불가능하니 꼭 PC/Mac 환경에서 진행하세요.
@@ -42,8 +42,8 @@
 
 [npm](https://www.npmjs.com/)을 사용하시려면 반드시 설치하셔야해요. 겁먹지마세요! [npm](https://www.npmjs.com/)이 뭔지는 제가 차근차근 설명해드릴께요.
 
-# 흠... 트렌디해지고 싶으시다구요? (선택 준비 사항)
-잘 생각하셨어요! 신기술은 선택이 아닌 필수죠.
+# 선택 준비 사항
+흠... 트렌디해지고 싶으시다구요? 잘 생각하셨어요! 신기술은 선택이 아닌 필수죠.
 
 ## Atom과 Github 계정 (for Teletype)
 - Atom [다운로드](https://atom.io/)
