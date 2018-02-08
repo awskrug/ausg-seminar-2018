@@ -54,9 +54,11 @@
 
 
 # 자 그럼 이제 시작해볼까요?
-1. [도메인 등록과 Route 53 Hosted Zone 등록 (Mailgun을 이용해 내가 등록한 도메인으로 메일 받아보기)](1_route53/)
-2. [S3 정적 웹사이트 호스팅](2_s3/)
-3. [HTTPS 인증서 만들고 CloudFront로 CDN 구성하기](3_cloudfront/)
-4. [Vue.js 소개](4_vue/)
-5. [Webpack 소개 및 배포 자동화](5_webpack/)
-### 6. 워크샵을 마친 후에 꼭 [삭제 가이드](6_remove/) 에 따라 생성 된 모든 리소스를 삭제해주세요.
+1. [Freenom 가입, 무료 도메인 등록 및 Mailgun 가입](1_freenom_mailgun)
+2. [Route 53 Hosted Zone 등록 (Mailgun을 이용해 내가 등록한 도메인으로 메일 받아보기)](2_route53/)
+3. [S3 정적 웹사이트 호스팅](3_s3/)
+4. [Certification Manager로 인증서 만들기](4_certification_manager)
+5. [CloudFront로 CDN 구성하기](5_cloudfront/)
+6. [Vue.js 소개](6_vue/)
+7. [Webpack 소개 및 배포 자동화](7_webpack/)
+### 8. 워크샵을 마친 후에 꼭 [삭제 가이드](8_remove/) 에 따라 생성 된 모든 리소스를 삭제해주세요.
