@@ -13,38 +13,39 @@
 
 #  반드시 미리 준비해주세요 제발요 (필수 준비 사항)
 
-### PC 또는 Mac
+## PC 또는 Mac
 본 세션은 코딩 과정이 포함되어 있습니다. 또한 CLI(Command Line Interface) 조작이 꼭 필요합니다. 모바일 환경(iPhone, iPad, Android)에서는 진행이 불가능하니 꼭 PC/Mac 환경에서 진행하세요.
 
-### AWS 계정
+## AWS 계정
 - AWS 계정 만들기 [이동](https://aws.amazon.com/ko/)
 
 본 가이드는 한명이 하나의 AWS 계정을 사용한다고 가정합니다. AWS Route 53, S3, CloudFront, Certification Manager에 접근할 수 있어야 하며, 다른 사람과 계정을 공유하게되면 특정 리소스에 대해 충돌이 발생하므로 권장하지 않습니다.
 
-본 워크샵의 일환으로 시작하는 모든 리소스는 AWS 계정이 12개월 미만인 경우, 제공하는 AWS 프리티어로 충분히 가능합니다. 프리티어를 넘어서는 경우, 과금일 될 수도 있습니다. 따라서, 새로운 실습용 계정을 만드시길 권장합니다. 자세한 내용은 [AWS 프리 티어 페이지](https://aws.amazon.com/free/)를 참조하세요.
+### [중요] 본 워크샵에서 사용하는 'Route 53' 서비스는 **과금**됩니다. 월 800원 (0.5$) 수준이니 실습이 끝나고 사용하지 않으신다면 바로 삭제하세요.
 
-### 웹 브라우저
+**Route 53을 제외한** 본 워크샵의 일환으로 시작하는 모든 리소스는 AWS 계정이 12개월 미만인 경우, 제공하는 AWS 프리티어로 충분히 가능합니다. 프리티어를 넘어서는 경우, 과금일 될 수도 있습니다. 따라서, 새로운 실습용 계정을 만드시길 권장합니다. 자세한 내용은 [AWS 프리 티어 페이지](https://aws.amazon.com/free/)를 참조하세요.
+
+## 웹 브라우저
 - Chrome 최신 버전 [다운로드](https://www.google.com/chrome/)
 - Firefox 최신 버전 [다운로드](https://www.mozilla.org/ko/firefox/new/)
 
-둘 중 원하시는 브라우저를 설치해주세요. (Internet Explorer는 AWS Web Console에서 문제가 발생 할 수도 있습니다.)
+둘 중 원하시는 브라우저를 설치해주세요. (Internet Explorer는 AWS Web Console에서 문제가 발생 할 수 있습니다.)
 
-### 텍스트 에디터
+## 텍스트 에디터
 - VS Code [다운로드](https://code.visualstudio.com/)
 - Atom [다운로드](https://atom.io/)
 
 본 실습 세션에는 실제 코딩이 포함됩니다. 다음 둘 중 하나를 선택해서 꼭 설치해주세요.
 
-### Node.js
-- Node.js 9.5.0 Current [다운로드](https://nodejs.org/en/)
-> 2018년 2월 8일 기준
+## Node.js
+- Node.js 최신 버전 [다운로드](https://nodejs.org/en/)
 
-잉? 프론트엔드에 왠 Node여? 하시겠지만... [npm](https://www.npmjs.com/)을 사용하시려면 반드시 설치하셔야해요. 겁먹지마세요! [npm](https://www.npmjs.com/)이 뭔지는 제가 차근차근 설명해드릴께요.
+[npm](https://www.npmjs.com/)을 사용하시려면 반드시 설치하셔야해요. 겁먹지마세요! [npm](https://www.npmjs.com/)이 뭔지는 제가 차근차근 설명해드릴께요.
 
 # 흠... 트렌디해지고 싶으시다구요? (선택 준비 사항)
 잘 생각하셨어요! 신기술은 선택이 아닌 필수죠.
 
-### Atom과 Github 계정 (for Teletype)
+## Atom과 Github 계정 (for Teletype)
 - Atom [다운로드](https://atom.io/)
 - Github 계정 만들기 [이동](https://github.com)
 
@@ -53,9 +54,9 @@
 
 
 # 자 그럼 이제 시작해볼까요?
-1. [도메인 등록과 Route 53 Hosted Zone 등록 (Mailgun을 이용해 내가 등록한 도메인으로 메일 받아보기)](1_c9-start/)
-2. [S3 정적 웹사이트 호스팅](2_c9-ec2/)
-3. [HTTPS 인증서 만들고 CloudFront로 CDN 구성하기](3_c9withFriends/)
-4. [Vue.js 소개](4_eb/)
-5. [Webpack 소개 및 배포 자동화](5_ebWithC9/)
-6.  **중요** 워크샵을 마친 후에 꼭 [삭제 가이드](6_removeGuide/) 에 따라 생성 된 모든 리소스를 삭제해주세요.
+1. [도메인 등록과 Route 53 Hosted Zone 등록 (Mailgun을 이용해 내가 등록한 도메인으로 메일 받아보기)](1_route53/)
+2. [S3 정적 웹사이트 호스팅](2_s3/)
+3. [HTTPS 인증서 만들고 CloudFront로 CDN 구성하기](3_cloudfront/)
+4. [Vue.js 소개](4_vue/)
+5. [Webpack 소개 및 배포 자동화](5_webpack/)
+### 6. 워크샵을 마친 후에 꼭 [삭제 가이드](6_remove/) 에 따라 생성 된 모든 리소스를 삭제해주세요.
