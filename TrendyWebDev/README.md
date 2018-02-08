@@ -4,7 +4,7 @@
 
 ### 본 실습 세션의 학습 목표는 아래와 같습니다.
 
-- Route 53을 이용해 내 도메인을 AWS DNS 서비스에 연결해본다.
+- 내 도메인을 AWS Route 53 서비스에 연결해본다.
 - S3를 이용해 HTML, JS, CSS 등 정적 웹사이트를 내 도메인으로 인터넷에 배포해본다. (HTTP)
 - CloudFront를 이용해 S3로 배포된 정적 웹사이트를 HTTPS로 배포해본다.
 - Vue.js, React.js 등 Frond-end Framework 패러다임에 대해 이해한다.
