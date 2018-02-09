@@ -19,6 +19,7 @@
 - 받은 이메일에 포함된 링크를 클릭합니다.
 <img src="./images/IMG_0448.PNG" width="320">
 <img src="./images/IMG_0449.PNG" width="320">
+
 - 링크를 클릭하면, 회원가입 페이지로 이동합니다. 해당하는 정보를 다음 예제를 참고하여 차례대로 입력하세요. (예제따라 대충 입력하셔도 괜찮습니다)
 - 'I have read and agree to the Terms & Conditions'에 체크합니다
 - 'Complete Order' 클릭
