@@ -17,6 +17,7 @@
 7. 좌측 하단 'Enter Your Email Address'에 나의 이메일 입력후, 'Verify My Email Address' 클릭 (참고: Captcha 창이 뜹니다.)
 8. (Review & Checkout 창이 뜹니다.) 입력한 이메일 주소로 확인 메일이 전송되었습니다. 확인해주세요.
 9. 받은 이메일에 포함된 링크를 클릭합니다.
+<img src="./images/IMG_0448.PNG" width="320">
 ![Freenom 예제 1](images/IMG_0448.PNG | width=320)
 ![Freenom 예제 1](images/IMG_0449.PNG | width=320)
 10. 링크를 클릭하면, 회원가입 페이지로 이동합니다. 해당하는 정보를 다음 예제를 참고하여 차례대로 입력하세요. (예제따라 대충 입력하셔도 괜찮습니다)
