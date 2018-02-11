@@ -194,7 +194,7 @@ npm install async gm util
 6. 여러 항목중 Lambda를 선택 합니다.
 ![role_select_lambda](./images/role_select_lambda.png)
 
-7. 방금 만든 정책인 **CreateThumbnailPolicy와 CloudWatchLogsFullAccess** 검색한뒤 체크박스에 체크를 하고 다음 버튼을 클릭합니다.
+7. 방금 만든 정책인 **CreateThumbnailPolicy와 기본으로 제공되는 CloudWatchLogsFullAccess** 검색한뒤 체크박스에 체크를 하고 다음 버튼을 클릭합니다.
 
 8. 역할 이름에 CreateThumbnailRole 를 입력하고 역할 만들기를 클릭합니다.
 
@@ -210,7 +210,7 @@ npm install async gm util
 S3 버켓을 생성하고, 람다 함수를 만들었으며 그에 맞는 역할까지 지정했습니다.
 
 **주의 테스트 이미지의 파일 이름이 한글이거나 확장자가 대문자일 경우 오류가 날 수 있습니다.**
- 
+
 S3에 ausg-YOURNAME 버켓에 images/ 디렉토리 안에 자신의 이미지를 올리게 되면
 
 ausg-YOURNAMe-resized에 images/란 디렉토리 안에 리사이즈된 파일을 볼 수 있습니다.
