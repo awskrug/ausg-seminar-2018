@@ -7,7 +7,7 @@
 2. 역할 탭에서 역할 생성을 클릭하고 Lambda를 선택합니다.
 ![iam_role_select_lambda](./images/iam_role_select_lambda.png)
 
-3. AmazonS3FullAccess 정책과 CloudWatchLogsFullAccess 정책을 체크한뒤 다음 버튼을 클릭합니다.
+3. **AmazonS3FullAccess 정책과 CloudWatchLogsFullAccess** 정책을 체크한뒤 다음 버튼을 클릭합니다. (편의상 FullAccess을 사용합니다. 실제 서비스에선 직접 정책을 만들어 사용하시는걸 권장합니다.)
 ![iam_search_policy](./images/iam_search_policy.png)
 
 4. 역할 이름에 ImageUploadRole을 입력한뒤 역할 만들기 버튼을 클릭합니다.
@@ -22,7 +22,7 @@
 3. 함수 이름 **imageUploadLambda** / 런타임 **Node.js 6.10** / 역할 **기존 역할 선택** 선택후 역할 이름 **ImageUploadRole** 선택 / 오른쪽 아래 **허용** 버튼 클릭
 ![lamda_create_fucntion](./images/lambda_create_function.png)
 
-4. 에디터를 열어 index.js 파일을 추가하고, 코드를 붙여넣기 합니다
+4. 에디터를 열어 index.js 파일을 추가하고, 코드를 붙여넣기 합니다 **55번째 줄 코드 수정 필수**
 
 ```
 const AWS = require('aws-sdk');
@@ -79,7 +79,7 @@ let getFiles = function( parts ) {
         const fileName = part.filename
         const fileFullName = fileName;
 
-        const originBucket = '<S3-ORIGIN-BUCKET-NAME>/images'
+        const originBucket = '<ausg-YOURNAME>/images'
         const filefullPath = `https://s3.ap-northeast-2.amazonaws.com/${originBucket}/${fileFullName}`;
 
 
