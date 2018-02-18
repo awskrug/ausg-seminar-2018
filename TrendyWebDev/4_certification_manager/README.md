@@ -4,6 +4,7 @@
 
 # Certification 받기
 - AWS Console로 이동
+### 반드시 리전을 '버지니아 북부'로 바꿔주셔야합니다!
 - Certification Manager로 이동
 ![스크린샷 1](./images/screenshot-2018-02-19-AM-2.37.28.png)
 - '시작하기' 클릭
