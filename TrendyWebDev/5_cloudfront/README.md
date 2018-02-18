@@ -11,9 +11,9 @@
 - Web으로 'Get Started' 클릭
 ![스크린샷 3](./images/screenshot-2018-02-19-AM-3.18.13.png)
 - 예시를 활용해 설정값을 입력합니다
-- 'Origin Domain Name'에서 S3 버킷의 정적 웹호스팅 엔드포인트를 넣어주세요
+- 'Origin Domain Name'에서 S3 버킷의 '정적 웹호스팅 엔드포인트'를 넣어주세요
 
-### 클릭해서 선택하시면 안됩니다!!!
+### 절대 클릭해서 선택하시면 안됩니다!!!
 
 - 'Viewer Protocol Policy'를 'Redirect HTTP to HTTPS'로 변경해줍니다
 ![스크린샷 4](./images/screenshot-2018-02-19-AM-3.19.14.png)
@@ -49,3 +49,5 @@
 - 'Alias Target'에 만들어준 'CloudFront distributions'을 선택합니다
 ![스크린샷 10](./images/screenshot-2018-02-19-AM-3.57.25.png)
 - 'Create' 를 클릭합니다
+
+### 축하드립니다. 우리 앱이 HTTPS로 인터넷에 공개되었습니다. CDN이 퍼지는 동안 시간을 좀 보내볼까요? Chapter 6. [Vue.js 소개](../6_vue/)로 이동하세요.
