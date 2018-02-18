@@ -31,17 +31,17 @@
 # Mail 관련 서비스를 Mailgun으로 포워딩
 - Mailgun으로 이동
 - [Mailgun] 상단의 'Domains' 클릭
-![스크린샷 9](./images/screenshot-2018-02-19-AM-1.46.07.png)
 - [Mailgun] 목록에서 아까 만든 Domain Name을 클릭합니다
-![스크린샷 10](./images/screenshot-2018-02-19-AM-1.46.18.png)
+![스크린샷 9](./images/screenshot-2018-02-19-AM-1.46.07.png)
 - [Mailgun] 하단의 'Domain Verification & DNS' 클릭
-![스크린샷 11](./images/screenshot-2018-02-19-AM-1.46.25.png)
+![스크린샷 10](./images/screenshot-2018-02-19-AM-1.46.18.png)
 - [Mailgun] 값들을 모두 확인합니다
-![스크린샷 12](./images/screenshot-2018-02-19-AM-1.47.56.png)
+![스크린샷 11](./images/screenshot-2018-02-19-AM-1.46.25.png)
 - [Route53] Route 53 서비스로 이동합니다. (Hosted Zone 페이지)
+![스크린샷 12](./images/screenshot-2018-02-19-AM-1.47.56.png)
 - [Route53] 상단 'Create Record Set' 클릭
 - [Route53] Mailgun의 'Type', 'Hostname', 'Enter this Value'를 참고하여 적어줍니다. (예제를 참고하세요)
-	- MX 부분 주의
+	- MX 부분에 주의해서 작성해주세요
 ![스크린샷 13](./images/screenshot-2018-02-19-AM-1.51.11.png)
 - [Mailgun] 'Check DNS Records Now' 클릭 - 시간이 조금 걸릴 수 있습니다
 ![스크린샷 14](./images/screenshot-2018-02-19-AM-1.51.47.png)
