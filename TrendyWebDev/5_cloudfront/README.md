@@ -5,7 +5,7 @@
 # CloudFront로 S3 정적 웹사이트를 CDN을 통해 HTTPS로 제공해보기
 - AWS Console로 이동합니다
 - CloudFront로 이동합니다
-![스크린샷 1](./images/screenshot-2018-02-19-AM-2.37.28.png)
+![스크린샷 1](./images/screenshot-2018-02-19-AM-3.18.03.png)
 - 'Create Distribution' 클릭
 ![스크린샷 2](./images/screenshot-2018-02-19-AM-3.18.08.png)
 - Web으로 'Get Started' 클릭
