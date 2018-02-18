@@ -27,7 +27,7 @@
 - 'Create Distribution'을 클릭하세요.
 ![스크린샷 6](./images/screenshot-2018-02-19-AM-3.28.53.png)
 
-# Error 페이지 커스터마이징
+<!-- # Error 페이지 커스터마이징
 - 만들어진 Distribution을 클릭합니다
 ![스크린샷 7](./images/screenshot-2018-02-19-AM-3.29.16.png)
 - 'Error Pages'를 클릭합니다.
@@ -38,7 +38,7 @@
 - 'Response Page Path'에 `/index.html`를 입력합니다
 - 'HTTP Response Code'를 '200: OK'로 설정합니다
 - 'Create'를 클릭합니다.
-![스크린샷 9](./images/screenshot-2018-02-19-AM-3.29.54.png)
+![스크린샷 9](./images/screenshot-2018-02-19-AM-3.29.54.png) -->
 
 # 내 도메인과 CloudFront 붙이기 (Route 53)
 - AWS Console로 이동합니다
