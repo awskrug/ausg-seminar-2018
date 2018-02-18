@@ -1,4 +1,5 @@
-# Chapter 1. 학습 목표
+# Chapter 1. Freenom, Mailgun 가입
+### 학습목표
 - [Freenom](http://www.freenom.com/en/index.html?lang=en)을 통해 무료 도메인을 신청한다.
 - 내 도메인으로 된 이메일을 수신하기 위해 Mailgun 가입 후 Freenom을 통해 신청한 무료 도메인을 Mailgun에 등록한다
 

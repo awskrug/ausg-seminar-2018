@@ -1,4 +1,5 @@
-# Chapter 2. 학습 목표
+# Chapter 2. Route 53 Hosted Zone 등록 (Mailgun을 이용해 내가 등록한 도메인으로 메일 받아보기)
+### 학습목표
 - Route 53에 새로 만든 도메인을 등록한다.
 - Route 53을 이용해 새로 만든 도메인으로 요청되는 Mail 관련 서비스를 Mailgun으로 포워딩한다.
 
