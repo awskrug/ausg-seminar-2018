@@ -1,4 +1,4 @@
-# Chapter 7. Webpack을 이용해 쉽게 배포하기
+# Chapter 7. Webpack 소개 및 배포 자동화
 ### 학습목표
 - Webpack의 역할에 대해 이해한다
 - IAM 역할, 정책, 사용자, 그룹에 대해 이해한다

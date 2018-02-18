@@ -1,4 +1,4 @@
-# Chapter 6. Vue 입문하기 (실습이 아닙니다)
+# Chapter 6. Vue.js 소개 (실습이 아닙니다)
 ### 학습목표
 - 프론트엔드 프레임웍의 작동방법을 이해한다
 - Single Page Application (SPA)가 무엇인지 이해한다

@@ -1,4 +1,4 @@
-# Chapter 4. Certification Manager를 이용, HTTPS 호스팅을 위한 HTTPS 인증서 만들기
+# Chapter 4. Certification Manager로 인증서 만들기
 ### 학습목표
 - AWS Region에 대해 이해한다
 - 인증서를 발급한다
