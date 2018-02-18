@@ -5,23 +5,26 @@
 # Route 53에 도메인 등록
 - AWS Console로 이동
 - Route 53 서비스로 이동
-[스크린샷]
+![스크린샷 1](./images/screenshot-2018-02-18-pm-9.11.36.png)
 - 좌측 메인 메뉴에서 'Hosted zones' 클릭
-[스크린샷]
+![스크린샷 2](./images/screenshot-2018-02-18-pm-9.12.20.png)
 - 상단 'Create Hosted Zone' 클릭
-[스크린샷]
 - 우측에 메뉴가 나옵니다. Domain Name에 만든 도메인을 입력합니다
 - 다른 옵션은 건드리지 않고 하단의 'Create' 버튼을 클릭합니다
 - (생성된 Hosted Zone으로 바로 이동됩니다)
-[스크린샷]
+![스크린샷 3](./images/screenshot-2018-02-18-pm-9.12.54.png)
 - 레코드 중 Type이 NS이 레코드의 Value를 확인합니다.
+![스크린샷 3](./images/screenshot-2018-02-18-pm-9.14.57.png)
 - Freenom으로 이동 한 뒤 전에 만든 계정으로 로그인합니다
 - 상단의 메뉴에서 'Services' - 'My Domains'로 들어갑니다
+![스크린샷 3](./images/screenshot-2018-02-18-pm-9.15.33.png)
 - 만들어진 도메인의 'Manage Domain'을 클릭합니다
+![스크린샷 3](./images/screenshot-2018-02-18-pm-9.15.40.png)
 - 'Management Tools' - 'Name Servers'를 클릭합니다
-[스크린샷]
+![스크린샷 3](./images/screenshot-2018-02-18-pm-9.15.52.png)
 - 아까 확인한 Value 4개를 차례대로 입력합니다
 - 'Change Nameservers' 클릭
+![스크린샷 3](./images/screenshot-2018-02-18-pm-9.16.00.png)
 - 축하합니다! 해당 도메인을 이제 Route 53을 통해 관리 할 수 있습니다.
 
 # Mail 관련 서비스를 Mailgun으로 포워딩

@@ -3,3 +3,4 @@
 3. S3 버킷 삭제
 4. Mailgun Domain 삭제
 5. Route 53 삭제
+6. IAM 유저 삭제
