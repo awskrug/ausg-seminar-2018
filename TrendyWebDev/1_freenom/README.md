@@ -1,7 +1,6 @@
-# Chapter 1. Freenom 가입 및 무료 도메인 등록 / Mailgun 가입
+# Chapter 1. Freenom 가입 및 무료 도메인 등록
 ### 학습목표
 - [Freenom](http://www.freenom.com/en/index.html?lang=en)을 통해 무료 도메인을 신청한다.
-- 내 도메인으로 된 이메일을 수신하기 위해 Mailgun 가입 후 Freenom을 통해 신청한 무료 도메인을 Mailgun에 등록한다
 
 # Freenom 가입 및 무료 도메인 생성
 
@@ -29,7 +28,7 @@
 <img src="./images/IMG_0449.PNG" width="320">
 - 'Order Confirmation'이 나오면 신청이 완료 된 것입니다.
 
-# Mailgun 가입 및 도메인 등록
+<!-- # Mailgun 가입 및 도메인 등록
 - Mailgun 사이트로 이동 [이동하기](https://www.mailgun.com/)
 - 우측 상단 'SIGN UP' 클릭
 ![스크린샷 5](./images/screenshot_2018-02-09_AM_2.50.07.png)
@@ -47,5 +46,5 @@
 - 'Add New Domain'을 클릭합니다
 ![스크린샷 8](./images/screenshot-2018-02-19-AM-1.41.08.png)
 - 아까 등록한 도메인을 입력 한 뒤, 'Add Domain' 버튼을 클릭합니다. (subdomain은 적지 않습니다 - Warning 오류는 무시하세요)
-![스크린샷 9](./images/screenshot-2018-02-19-AM-1.41.15.png)
-### 축하드립니다. 이제 모든 준비가 끝났네요! Chapter 2. [Route 53 Hosted Zone 등록 (Mailgun을 이용해 내가 등록한 도메인으로 메일 받아보기)](../2_route53/)로 이동하세요.
+![스크린샷 9](./images/screenshot-2018-02-19-AM-1.41.15.png) -->
+### 축하드립니다. 이제 모든 준비가 끝났네요! Chapter 2. [Route 53 Hosted Zone 등록](../2_route53/)로 이동하세요.

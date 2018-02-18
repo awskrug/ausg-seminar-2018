@@ -54,8 +54,8 @@
 
 
 # 자 그럼 이제 시작해볼까요?
-1. [Freenom 가입 및 무료 도메인 등록 / Mailgun 가입](1_freenom_mailgun)
-2. [Route 53 Hosted Zone 등록 (Mailgun을 이용해 내가 등록한 도메인으로 메일 받아보기)](2_route53/)
+1. [Freenom 가입 및 무료 도메인 등록](1_freenom)
+2. [Route 53 Hosted Zone 등록](2_route53/)
 3. [S3 정적 웹사이트 호스팅](3_s3/)
 4. [Certification Manager로 인증서 만들기](4_certification_manager)
 5. [CloudFront로 CDN 구성하기](5_cloudfront/)
