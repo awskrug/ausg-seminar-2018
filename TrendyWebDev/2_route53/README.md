@@ -31,21 +31,27 @@
 # Mail 관련 서비스를 Mailgun으로 포워딩
 - Mailgun으로 이동
 - [Mailgun] 상단의 'Domains' 클릭
+![스크린샷 9](./images/screenshot-2018-02-19-AM-1.46.07.png)
 - [Mailgun] 목록에서 아까 만든 Domain Name을 클릭합니다
-[스크린샷]
+![스크린샷 10](./images/screenshot-2018-02-19-AM-1.46.18.png)
 - [Mailgun] 하단의 'Domain Verification & DNS' 클릭
+![스크린샷 11](./images/screenshot-2018-02-19-AM-1.46.25.png)
 - [Mailgun] 값들을 모두 확인합니다
+![스크린샷 12](./images/screenshot-2018-02-19-AM-1.47.56.png)
 - [Route53] Route 53 서비스로 이동합니다. (Hosted Zone 페이지)
 - [Route53] 상단 'Create Record Set' 클릭
-[스크린샷]
 - [Route53] Mailgun의 'Type', 'Hostname', 'Enter this Value'를 참고하여 적어줍니다. (예제를 참고하세요)
 	- MX 부분 주의
+![스크린샷 13](./images/screenshot-2018-02-19-AM-1.51.11.png)
 - [Mailgun] 'Check DNS Records Now' 클릭 - 시간이 조금 걸릴 수 있습니다
+![스크린샷 14](./images/screenshot-2018-02-19-AM-1.51.47.png)
+![스크린샷 15](./images/screenshot-2018-02-19-AM-1.53.48.png)
 - [Mailgun] 상단의 'Routes' 클릭
 - [Mailgun] Create New Route 클릭
-[스크린샷]
+![스크린샷 16](./images/screenshot-2018-02-19-AM-1.54.16.png)
 - Actions의 Forward를 체크 한 뒤 포워딩 된 메일을 받을 이메일 주소를 입력해주세요
 - 'Create Route' 클릭
-- 메일이 잘 오는지 확인 (포워딩에 등록한 이메일 말고 다른 메일로 보내셔야 받을 수 있습니다. 주변 분들께 도움을 구하세요!)
+![스크린샷 8](./images/screenshot-2018-02-19-AM-1.54.44.png)
+- 메일이 잘 오는지 확인 (Forwarding에 등록한 이메일이 아닌 다른 메일 주소로 보내셔야 받을 수 있습니다. 주변 분들께 도움을 구하세요!)
 
 ### 축하드립니다. 이제 신청하신 도메인으로 이메일 서비스를 이용 하실 수 있습니다. Chapter 3. [S3 정적 웹사이트 호스팅](../3_s3/)로 이동하세요.
