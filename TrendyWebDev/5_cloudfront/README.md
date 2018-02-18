@@ -15,8 +15,8 @@
 ### 주의) 절대 클릭해서 선택하시면 안됩니다!!!
 - 'Origin Domain Name'에서 S3 버킷의 **정적 웹호스팅 엔드포인트**를 넣어주세요
 - 'Viewer Protocol Policy'를 'Redirect HTTP to HTTPS'로 변경해줍니다
-![스크린샷](./images/screenshot-2018-02-18-PM-10.24.51.png)
-![스크린샷 4](./images/screenshot-static.png)
+![스크린샷](./images/screenshot-static.png)
+![스크린샷 4](./images/screenshot-edit.png)
 - 'Alternate Domain Names (CNAMEs)'를 `내도메인.이름`으로 바꿔줍니다
 - 'SSL Certificate'를 'Custom SSL Certificate (example.com)'으로 변경하고, 방금 Certification Manager에서 생성한 인증서를 선택합니다.
 ![스크린샷 5](./images/screenshot-2018-02-19-AM-3.28.34.png)
