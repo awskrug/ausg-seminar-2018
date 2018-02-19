@@ -17,7 +17,7 @@
 
 1. [AWS Lambda 랜딩 페이지 Amazon Web Services](https://ap-northeast-2.console.aws.amazon.com/lambda/home?region=ap-northeast-2) 페이지에 접속합니다.
 
-2. **함수 만들기** 클릭 (주의 서울리전에 생성!!)
+2. **함수 만들기** 클릭 (주의 서울 리전에 생성!!)
 
 3. 이름 **createThumbnailLambda** / 런타임 **Node.js 6.10** / 역할 **사용자 지정 / 역할 생성** 선택후 새 역할 생성 /역할 이름 **lambda_basic_execution** (디폴트) / 오른쪽 아래 **허용** 버튼 클릭
 ![create_lambda](./images/create_lambda_function.png)    
@@ -25,7 +25,7 @@
 4. 왼쪽 사이드 바에서 **S3** 트리거 추가
 ![lambda_trigger](./images/lambda_trigger.png)
 
-5. 트리거 구성 탭에서 생성했던 **'ausg-YOURNAME-origin'** 버킷 선택
+5. 트리거 구성 탭에서 생성했던 **'ausg-YOURNAME'** 버킷 선택
 6. 이벤트 유형 **객체 생성됨(모두)** 선택
 7. 접두사 **images/** 입력
 8. 트리거 활성화 **체크박스에 체크** 를 한뒤 추가 버튼 클릭
@@ -35,7 +35,7 @@
 ![fucntion_click](./images/function_click.png)
 10. 텍스트 에디터를 실행한 뒤 새로운 폴더 생성
 
-11. index.js 파일 추가 **(버킷 이름 설정 주의)**
+11. index.js 파일 추가
 
 ```
 // index.js
@@ -172,7 +172,7 @@ npm install async gm util
                 "s3:GetObject"
             ],
             "Resource": [
-                "arn:aws:s3:::<S3-ORIGIN-BUCKET-NAME>/images/*"
+                "arn:aws:s3:::<ausg-YOURNAME>/images/*"
             ]
         },
         {
@@ -181,7 +181,7 @@ npm install async gm util
                 "s3:PutObject"
             ],
             "Resource": [
-                "arn:aws:s3:::<S3-RESIZED-BUCKET-NAME>/images/*"
+                "arn:aws:s3:::<ausg-YOURNAME-resized>/images/*"
             ]
         }
     ]
@@ -194,7 +194,7 @@ npm install async gm util
 6. 여러 항목중 Lambda를 선택 합니다.
 ![role_select_lambda](./images/role_select_lambda.png)
 
-7. 방금 만든 정책인 CreateThumbnailPolicy를 검색한뒤 체크박스에 체크를 하고 다음 버튼을 클릭합니다.
+7. 방금 만든 정책인 **CreateThumbnailPolicy와 기본으로 제공되는 CloudWatchLogsFullAccess** 검색한뒤 체크박스에 체크를 하고 다음 버튼을 클릭합니다.
 
 8. 역할 이름에 CreateThumbnailRole 를 입력하고 역할 만들기를 클릭합니다.
 
@@ -209,6 +209,7 @@ npm install async gm util
 
 S3 버켓을 생성하고, 람다 함수를 만들었으며 그에 맞는 역할까지 지정했습니다.
 
+**주의 테스트 이미지의 파일 이름이 한글이거나 확장자가 대문자일 경우 오류가 날 수 있습니다.**
 
 S3에 ausg-YOURNAME 버켓에 images/ 디렉토리 안에 자신의 이미지를 올리게 되면
 
