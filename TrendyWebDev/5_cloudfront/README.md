@@ -44,8 +44,10 @@
 - AWS Console로 이동합니다
 - Route53으로 이동합니다
 - 전에 만든 Hosted Zone으로 이동 한 뒤
-- 이전에 만든 Record Set을 선택 (Type이 'A'입니다), 'Delete Record Set'을 클릭합니다.
-- 이후 'Create Record Set' 클릭
+
+### 이전에 만든 Record Set을 선택 (Type이 'A'입니다), 'Delete Record Set'을 클릭합니다.
+
+- 'Create Record Set' 클릭
 - 'Alias'를 'Yes'로 바꿔줍니다
 - 'Alias Target'에 만들어준 'CloudFront distributions'을 선택합니다
 ![스크린샷 10](./images/screenshot-2018-02-19-AM-3.57.25.png)
