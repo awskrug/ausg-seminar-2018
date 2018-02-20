@@ -6,6 +6,8 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const ProgressPlugin = require('webpack/lib/ProgressPlugin')
 const OfflinePlugin = require('offline-plugin')
 const rm = require('rimraf')
+// 1. 주석을 해제하세요!
+// const S3Plugin = require('webpack-s3-plugin')
 const base = require('./webpack.base')
 const pkg = require('../package')
 const _ = require('./utils')
@@ -61,7 +63,9 @@ base.plugins.push(
       events:true,
       FALLBACK:{ '/':'/' }
     }
-  })
+  }),
+  // 2. 주석을 해제하세요!
+  // new S3Plugin(require('./s3.options.js'))
 )
 
 // extract css in standalone css files

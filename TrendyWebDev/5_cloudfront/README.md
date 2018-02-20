@@ -27,6 +27,8 @@
 - 'Create Distribution'을 클릭하세요.
 ![스크린샷 6](./images/screenshot-2018-02-19-AM-3.28.53.png)
 
+- Distribution이 만들어지면 **Distribution ID**를 메모장에 복사해놓으세요. **Chapter 7** 에서 해당 ID 값이 필요합니다. 
+
 <!-- # Error 페이지 커스터마이징
 - 만들어진 Distribution을 클릭합니다
 ![스크린샷 7](./images/screenshot-2018-02-19-AM-3.29.16.png)

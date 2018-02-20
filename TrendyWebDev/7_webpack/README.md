@@ -84,39 +84,38 @@ npm run build
 - 도메인 이름으로 가서 변경 내용을 확인해보세요
 
 # 7. webpack-s3-plugin를 통한 빌드 시 S3에 자동 업로드 세팅
-- macOS 환경이신 경우 `Terminal.app`, Windows 환경이신 경우 `cmd`를 열어주세요.
-- 아래의 명령어를 입력하세요
-> NPM을 이용해 Webpack s3 Plugin을 설치하는 과정입니다. `--save-dev` flag를 사용하면 설치한 내역을 package.json의 `devDependencies`항목에 적어넣습니다.
-
-```bash
-npm install --save-dev git+https://github.com/hyukio/s3-plugin-webpack.git
-```
-![스크린샷](./images/screenshot-2018-02-20-PM-7.05.46.png)
-
-- `ausg-vue-app/build/webpack.prod.js` 파일을 열어봅니다.
-- 최상단 선언부분 (각종 `require`문 들) 에 다음 내용을 추가합니다
-> 이 코드는 방금 설치한 `webpack-s3-plugin`을 js 파일 내에서 변수로 사용 할 수 있도록 해줍니다.
+- `TrendyWebDev/7_webpack/ausg-vue-app/build/webpack.prod.js` 파일을 열어봅니다.
+- 10줄과 68줄에 적혀있는 코드의 주석을 해제합니다
+> 이 코드는 방금 설치한 `webpack-s3-plugin`을 Webpack 빌드가 끝난 후 마지막에 수행하도록 도와줍니다.
 
 ```js
 const S3Plugin = require('webpack-s3-plugin')
 ```
-![스크린샷](./images/screenshot-2018-02-20-PM-7.05.56.png)
-
-- 65번째 줄 뒤에 쉼표(,)를 붙인 후, 65와 66번째 줄 사이에 다음 코드를 삽입합니다.
 
 ```js
-new S3Plugin({
+new S3Plugin(require('./s3.options.js'))
+```
+
+- `build` 폴더 안에 `s3.options.js` 파일을 만듭니다
+- 아래의 코드를 복사해넣습니다.
+
+```js
+module.exports = {
   s3Options: {
-    accessKeyId: '액세스키를여기에넣습니다',
-    secretAccessKey: '시크릿액세스키를여기에넣습니다',
+    accessKeyId: '액세스 키를 넣어주세요',
+    secretAccessKey: '시크릿 액세스 키를 넣어주세요',
     region: 'ap-northeast-2',
   },
   s3UploadOptions: {
-    Bucket: '버킷이름을여기에넣습니다',
+    Bucket: '버킷 이름을 넣어주세요',
   },
-})
+  cloudfrontInvalidateOptions: {
+    DistributionId: 'CloudFront Distribution ID를 넣어주세요',
+    Items: ["/*"],
+  },
+}
 ```
-![스크린샷](./images/screenshot-2018-02-20-PM-7.06.12.png)
+![스크린샷](./images/screenshot-2018-02-20-PM-10.40.18.png)
 
 - 이 플러그인을 멋지게 작동시키려면 S3 접근 권한을 가진 `Access Key`와 `Secret Access Key`가 필요합니다
 
@@ -127,25 +126,28 @@ new S3Plugin({
 - '사용자' 메뉴로 이동합니다
 - '사용자 추가' 클릭
 ![스크린샷](./images/screenshot-2018-02-20-PM-7.07.29.png)
-- '사용자 이름'에 `ausg-webpack-s3`를 입력합니다. (자유롭게 작성하셔도 괜찮습니다)
+- '사용자 이름'에 `ausg-webpack-plugin`를 입력합니다. (자유롭게 작성하셔도 괜찮습니다)
 - '프로그래밍 방식 액세스'에 체크합니다
-![스크린샷](./images/screenshot-2018-02-20-PM-7.25.52.png)
+![스크린샷](./images/screenshot-2018-02-20-PM-10.26.37.png)
 - '기존 정책 직접 연결' 클릭
 - 검색폼에 `s3` 입력
 - `AmazonS3FullAccess`를 선택합니다
+- 검색폼에 `cloudfront` 입력
+- `CloudFrontFullAccess`를 선택합니다
 - '검토' 클릭
-![스크린샷](./images/screenshot-2018-02-20-PM-7.26.51.png)
+![스크린샷](./images/screenshot-2018-02-20-PM-10.26.44.png)
+![스크린샷](./images/screenshot-2018-02-20-PM-10.26.48.png)
 - 만든 내용을 검토하세요
 - '사용자 만들기' 클릭
-![스크린샷](./images/screenshot-2018-02-20-PM-7.26.56.png)
+![스크린샷](./images/screenshot-2018-02-20-PM-10.26.53.png)
 ### [주의] 이 Access Key와 Secret Access Key가 유츨 될 시에, S3에 대한 모든 권한이 마찬가지로 노출됩니다. 반드시 조심히 관리하세요 (이 가이드는 개인에게 해당 문제가 발생 할 시 책임을 지지 않습니다)
-- Access Key와 Secret Access Key가 생성되었습니다
-> Secret Access Key는 해당 화면을 나가는 동시에 다시 확인 할 수 없습니다. 안전한 장소에 복사하여 저장하세요
+- **Access Key**와 **Secret Access Key**가 생성되었습니다
+> **Secret Access Key**는 해당 화면을 나가는 동시에 다시 확인 할 수 없습니다. 안전한 장소에 복사하여 저장하세요
 
-![스크린샷](./images/screenshot-2018-02-20-PM-7.27.03.png)
+![스크린샷](./images/screenshot-2018-02-20-PM-10.27.01.png)
 
-- 에디터로 돌아와서, 해당 Access Key와 Secret Access Key를 `webpack.prod.js`내 플러그인 옵션에 붙여 넣어줍니다.
-![스크린샷](./images/screenshot-2018-02-20-PM-7.31.28.png)
+- 에디터로 돌아와서, **Access Key**와 **Secret Access Key**, 그리고 아까 전에 확인한 **CloudFront Distribution ID**를 `webpack.prod.js`내 플러그인 옵션에 붙여 넣어줍니다.
+![스크린샷](./images/screenshot-2018-02-20-PM-10.40.25.png)
 - 이제 다시 빌드하면, 빌드 완료된 번들 파일(HTML, CSS, JS)가 자동으로 S3에 업로드 됩니다
 
 ```
