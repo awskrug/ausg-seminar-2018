@@ -11,11 +11,12 @@
   - npm 소개
   - Webpack이란? (개념)
   - 본격적으로 Vue Project 시작해보기 (Vue CLI로 Scaffolding)
-  > 참고) 본 세션에서는 `egoist/vuepack` 템플릿을 사용합니다.
-  > 현재(2월 22일 기준) Vue CLI는 3.0-alpha가 최신입니다. (TypeScript를 사용하실 예정이라면, Vue CLI 3을 사용하시는 것을 추천합니다)
+> [참고] 본 세션에서는 Vue CLI와 함께 `egoist/vuepack` 템플릿을 사용합니다.
+  
+> 현재(2월 22일 기준) Vue CLI는 3.0-alpha가 최신입니다. (TypeScript를 사용하실 예정이라면, Vue CLI 3을 사용하시는 것을 추천합니다)
 
 # 2. 실습 (지금부터 AWS Console이 아닌 Local에서 작업하셔야 합니다.)
-- 주의) 스크린샷과 보이는 모습이 다를 수 있습니다.
+- [주의] 스크린샷과 보이는 모습이 다를 수 있습니다.
 - macOS 환경이신 경우 `Terminal.app`, Windows 환경이신 경우 `cmd`를 열어주세요.
 ![스크린샷 1](./images/screenshot-2018-02-20-PM-5.04.20.png)
 - `/TrendyWebDev/7_webpack/ausg-vue-app`으로 이동합니다 (`cd` 명령어를 이용하세요)
@@ -34,10 +35,13 @@
   - `static` 폴더 안에는 정적으로 호스팅 할 이미지 등을 넣으시면 됩니다.
 - 먼저 한번 어떤 앱인지 확인해볼까요? `npm run dev`를 입력하시면 자동으로 개발 서버를 띄웁니다.
 > 참고) `npm run *` 명령어는 `package.json` 파일 내부에 `scripts` 속성에 가시면 새롭게 정의하거나 수정 할 수 있습니다.
+
 ![스크린샷 4](./images/screenshot-2018-02-20-PM-5.20.35.png)
 - 성공하셨나요? 그렇다면, `http://localhost:4000`으로 이동해봅니다. [이동](http://localhost:4000)
 > 참고) 이 개발 서버는 수정 사항이 있을 때마다, 자동으로 새로고침 해줍니다.
+
 - 수정 진행... (준비중)
+
 - 이제 빌드 해보겠습니다. `npm run build` 명령어를 입력하시면 우리의 앱을 html, css, js 파일로 이루어진 정적 파일로 빌드해줍니다.
 ![스크린샷 5](./images/screenshot-2018-02-20-PM-5.23.16.png)
 - 빌드가 끝나셨으면, `dist` 폴더가 생긴 모습을 확인 할 수 있는데요, 이 폴더 내부에 정적 파일들이 저장됩니다.
