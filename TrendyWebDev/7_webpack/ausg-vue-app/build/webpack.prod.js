@@ -6,7 +6,6 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const ProgressPlugin = require('webpack/lib/ProgressPlugin')
 const OfflinePlugin = require('offline-plugin')
 const rm = require('rimraf')
-const S3Plugin = require('webpack-s3-plugin')
 const base = require('./webpack.base')
 const pkg = require('../package')
 const _ = require('./utils')
@@ -62,16 +61,6 @@ base.plugins.push(
       events:true,
       FALLBACK:{ '/':'/' }
     }
-  }),
-  new S3Plugin({
-    s3Options: {
-      accessKeyId: 'AKIAIUVZXTURGLMGGE7A',
-      secretAccessKey: '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',
-      region: 'ap-northeast-2',
-    },
-    s3UploadOptions: {
-      Bucket: 'ausg.ga',
-    },
   })
 )
 

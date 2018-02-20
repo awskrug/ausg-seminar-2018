@@ -1,18 +1,15 @@
 <template>
   <div class="page">
-    <counter></counter>
-    <p>
-      To get started, edit files in <code>./client</code> and save.
-    </p>
+    <p>안녕하세요! {{ serviceName }}에 오신 것을 환영합니다!</p>
   </div>
 </template>
 
 <script>
-import Counter from 'components/Counter'
-
 export default {
-  components: {
-    Counter
-  }
+  data: function() {
+    return {
+      serviceName: 'AUSG'
+    }
+  },
 }
 </script>
