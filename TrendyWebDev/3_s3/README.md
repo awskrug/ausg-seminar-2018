@@ -36,7 +36,7 @@
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::여기에.도메인.입력/*"
+      "Resource": "arn:aws:s3:::버킷이름입력/*"
     }
   ]
 }
