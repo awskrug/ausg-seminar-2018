@@ -21,12 +21,14 @@
 - `/TrendyWebDev/7_webpack/ausg-vue-app`으로 이동합니다 (`cd` 명령어를 이용하세요)
 ![스크린샷 2](./images/screenshot-2018-02-20-PM-5.05.25.png)
 - `npm install`을 입력해주세요 (반드시 Node.js가 설치되어 있어야 합니다)
-> `npm install` 명령어는 해당 폴더내에 `package.json`에 포함된 모든 필요한 패키지를 `node_modules` 폴더에 설치합니다.
-> 참고) 저는 `npm` 대신 `yarn`을 사용합니다. 고양이가 귀엽거든요! (두 개의 차이점은 거의 없다고 보시면 됩니다)
+> `npm install` 명령어는 해당 폴더내에 `package.json`에 포함된 모든 필요한 패키지를 `node_modules` 폴더에 설치합니다. 
+
+> [참고] 저는 `npm` 대신 `yarn`을 사용합니다. 고양이가 귀엽거든요! (두 개의 차이점은 거의 없다고 보시면 됩니다)
+
 ![스크린샷 3](./images/screenshot-2018-02-20-PM-5.09.04.png)
 - 설치가 완료되면 해당 폴더를 코드 에디터(Atom, VS Code 등)으로 열어봅니다.
 - 폴더 구조 설명
-  - `build` 폴더 안에는 빌드를 위해 필요한 Webpack 설정 등이 들어있습니다
+  - `build` 폴더 안에는 빌드를 위해 필요한 Webpack 설정이 들어있습니다
   - `client` 폴더 안에는 우리가 앱을 제작할 소스가 들어있습니다.
   - `node_modules` 폴더 안에는 NPM 패키지들이 들어있습니다.
   - `static` 폴더 안에는 정적으로 호스팅 할 이미지 등을 넣으시면 됩니다.
