@@ -16,10 +16,13 @@
 > [참고] 현재(2월 22일 기준) Vue CLI는 3.0-alpha가 최신입니다. (TypeScript를 사용하실 예정이라면, Vue CLI 3을 사용하시는 것을 추천합니다)
 
 # 2. Dependency 설치
-- **주의** 스크린샷과 보이는 모습이 다를 수 있습니다.
 - macOS 환경이신 경우 `Terminal.app`, Windows 환경이신 경우 `cmd`를 열어주세요.
+> [참고] 스크린샷과 보이는 모습이 다를 수 있습니다. (해당 스크린샷은 zsh 환경입니다)
+
 ![스크린샷 1](./images/screenshot-2018-02-20-PM-5.04.20.png)
-- `/TrendyWebDev/7_webpack/ausg-vue-app`으로 이동합니다 (`cd` 명령어를 이용하세요)
+
+- 처음에 다운로드 한 폴더 내의 `ausg-seminar-2018/TrendyWebDev/7_webpack/ausg-vue-app`으로 이동합니다 (`cd` 명령어를 이용하세요)
+
 ![스크린샷 2](./images/screenshot-2018-02-20-PM-5.05.25.png)
 
 - 아래의 명령어를 입력해주세요 (반드시 Node.js가 설치되어 있어야 합니다)
@@ -72,7 +75,7 @@ npm run build
 - S3 서비스로 이동
 - 전에 만든 버킷으로 이동합니다
 
-### [주의] 반드시 Chrome 또는 Firfox에서 작업하세요!
+### [주의] 반드시 Chrome 또는 Firefox에서 작업하세요! (IE에서는 Drag and Drop 기능이 제공되지 않습니다)
 
 - dist 폴더 내부의 파일들을 Drag and Drop으로 끌어 놓습니다
 ![스크린샷 6](./images/screenshot-2018-02-20-PM-6.50.14.png)
@@ -99,7 +102,7 @@ const S3Plugin = require('webpack-s3-plugin')
 ```
 ![스크린샷](./images/screenshot-2018-02-20-PM-7.05.56.png)
 
-- 65번째 줄 뒤에 쉼표(,)를 붙인 후, 64와 65 사이에 다음 코드를 삽입합니다.
+- 65번째 줄 뒤에 쉼표(,)를 붙인 후, 65와 66번째 줄 사이에 다음 코드를 삽입합니다.
 
 ```js
 new S3Plugin({
