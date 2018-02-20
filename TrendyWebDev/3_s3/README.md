@@ -71,4 +71,4 @@
 - 잠시 기다리면 (DNS가 퍼지는 동안 시간이 소요됩니다), 도메인을 통해 S3 정적 웹사이트에 접근이 가능합니다.
 ![스크린샷 16](./images/screenshot-2018-02-19-AM-12.50.37.png)
 
-### 축하드립니다. 이제 신청하신 도메인으로 HTML 파일을 호스팅 할 수 있습니다. Chapter 4. [HTTPS 호스팅을 위해 HTTPS 인증서 만들기](../4_certification_manager/)로 이동하세요.
+### 축하드립니다. 이제 신청하신 도메인으로 HTML 파일을 호스팅 할 수 있습니다. Chapter 4. [HTTPS 호스팅을 위해 HTTPS 인증서 만들기](../4_certificate_manager/)로 이동하세요.
