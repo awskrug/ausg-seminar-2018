@@ -86,7 +86,7 @@ npm run build
 # 7. webpack-s3-plugin를 통한 빌드 시 S3에 자동 업로드 세팅
 - `TrendyWebDev/7_webpack/ausg-vue-app/build/webpack.prod.js` 파일을 열어봅니다.
 - 10줄과 68줄에 적혀있는 코드의 주석을 해제합니다
-> 이 코드는 방금 설치한 `webpack-s3-plugin`을 Webpack 빌드가 끝난 후 마지막에 수행하도록 도와줍니다.
+> 이 코드는 `webpack-s3-plugin`을 Webpack 빌드가 끝난 후 마지막에 수행하도록 도와줍니다.
 
 ```js
 const S3Plugin = require('webpack-s3-plugin')
