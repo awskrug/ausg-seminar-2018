@@ -117,9 +117,9 @@ module.exports = {
 ```
 ![스크린샷](./images/screenshot-2018-02-20-PM-10.40.18.png)
 
-- 이 플러그인을 멋지게 작동시키려면 S3 접근 권한을 가진 `Access Key`와 `Secret Access Key`가 필요합니다
+- 이 플러그인을 멋지게 작동시키려면 S3 접근 권한을 가진 `Access Key ID`와 `Secret Access Key`가 필요합니다
 
-# 8. AWS IAM에서 Access Key와 Secret Access Key 발급받기
+# 8. AWS IAM에서 Access Key ID와 Secret Access Key 발급받기
 - AWS Console로 이동
 - AWS IAM으로 이동
 ![스크린샷](./images/screenshot-2018-02-20-PM-7.07.01.png)
@@ -141,12 +141,12 @@ module.exports = {
 - '사용자 만들기' 클릭
 ![스크린샷](./images/screenshot-2018-02-20-PM-10.26.53.png)
 ### [주의] 이 Access Key와 Secret Access Key가 유츨 될 시에, S3에 대한 모든 권한이 마찬가지로 노출됩니다. 반드시 조심히 관리하세요 (이 가이드는 개인에게 해당 문제가 발생 할 시 책임을 지지 않습니다)
-- **Access Key**와 **Secret Access Key**가 생성되었습니다
+- **Access Key ID**와 **Secret Access Key**가 생성되었습니다
 > **Secret Access Key**는 해당 화면을 나가는 동시에 다시 확인 할 수 없습니다. 안전한 장소에 복사하여 저장하세요
 
 ![스크린샷](./images/screenshot-2018-02-20-PM-10.27.01.png)
 
-- 에디터로 돌아와서, **Access Key**와 **Secret Access Key**, 그리고 아까 전에 확인한 **CloudFront Distribution ID**를 `webpack.prod.js`내 플러그인 옵션에 붙여 넣어줍니다.
+- 에디터로 돌아와서, **Access Key ID**와 **Secret Access Key**, 그리고 아까 전에 확인한 **CloudFront Distribution ID**를 `webpack.prod.js`내 플러그인 옵션에 붙여 넣어줍니다.
 ![스크린샷](./images/screenshot-2018-02-20-PM-10.40.25.png)
 - 이제 다시 빌드하면, 빌드 완료된 번들 파일(HTML, CSS, JS)가 자동으로 S3에 업로드 됩니다
 
