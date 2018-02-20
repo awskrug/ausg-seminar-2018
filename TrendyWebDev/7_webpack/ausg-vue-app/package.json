@@ -6,7 +6,8 @@
   "scripts": {
     "test": "",
     "build": "webpack --config build/webpack.prod.js",
-    "dev": "node build/server.js"  },
+    "dev": "node build/server.js"
+  },
   "author": "Jee Hyuk Won <jeehyukwon@gmail.com>",
   "license": "MIT",
   "xo": {
@@ -18,9 +19,12 @@
   },
   "babel": {
     "presets": [
-      ["vue-app", {
-        "useBuiltIns": true
-      }]
+      [
+        "vue-app",
+        {
+          "useBuiltIns": true
+        }
+      ]
     ]
   },
   "postcss": {
@@ -29,7 +33,10 @@
       "postcss-nested": {}
     }
   },
-  "browserslist": ["last 2 versions", "ie > 8"],
+  "browserslist": [
+    "last 2 versions",
+    "ie > 8"
+  ],
   "dependencies": {
     "babel-runtime": "^6.18.0",
     "promise-polyfill": "^6.0.2",
