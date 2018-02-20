@@ -99,7 +99,7 @@ const S3Plugin = require('webpack-s3-plugin')
 ```
 ![스크린샷](./images/screenshot-2018-02-20-PM-7.05.56.png)
 
-- 64번째 줄 뒤에 쉼표(,)를 붙인 후, 64와 65 사이에 다음 코드를 삽입합니다.
+- 65번째 줄 뒤에 쉼표(,)를 붙인 후, 64와 65 사이에 다음 코드를 삽입합니다.
 
 ```js
 new S3Plugin({
@@ -138,9 +138,10 @@ new S3Plugin({
 ### [주의] 이 Access Key와 Secret Access Key가 유츨 될 시에, S3에 대한 모든 권한이 마찬가지로 노출됩니다. 반드시 조심히 관리하세요 (이 가이드는 개인에게 해당 문제가 발생 할 시 책임을 지지 않습니다)
 - Access Key와 Secret Access Key가 생성되었습니다
 > Secret Access Key는 해당 화면을 나가는 동시에 다시 확인 할 수 없습니다. 안전한 장소에 복사하여 저장하세요
+
 ![스크린샷](./images/screenshot-2018-02-20-PM-7.27.03.png)
 
-- 에디터로 돌아와서, 해당 Access Key와 Secret Access Key를 플러그인 세팅에 붙여 넣어줍니다.
+- 에디터로 돌아와서, 해당 Access Key와 Secret Access Key를 `webpack.prod.js`내 플러그인 옵션에 붙여 넣어줍니다.
 ![스크린샷](./images/screenshot-2018-02-20-PM-7.31.28.png)
 - 이제 다시 빌드하면, 빌드 완료된 번들 파일(HTML, CSS, JS)가 자동으로 S3에 업로드 됩니다
 
