@@ -5,7 +5,7 @@
 1. 콘솔창에서 **Route 53**페이지로 이동합니다.
 2. 좌측 리스트에서 **Hosted zones**항목으로 이동합니다.
 3. 생성한 **Hoseted zone**을 클릭하여 세부항목으로 들어갑니다.
-4. **Type A**, **Type CNAME** 항목들을 **Delete Record Set**을 클릭해 삭제하여 줍니다.
+4. **Type A**, **Type CNAME** 항목들을 선택한 뒤 **Delete Record Set**을 클릭해 삭제하여 줍니다.
 5. 다시 2번의 **Hosted zones**항목으로 이동합니다.
 6. 생성한 **Hosted zone**을 선택한 뒤, 상단의 **Delete Hosted Zone**을 클릭하여 삭제를 진행합니다.
 
