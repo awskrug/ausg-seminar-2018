@@ -64,4 +64,4 @@
 5. [CloudFront로 CDN 구성하기](5_cloudfront/)
 6. [Vue.js 소개](6_vue/)
 7. [Webpack 소개 및 배포 자동화](7_webpack/)
-8. [삭제 가이드] (8_Delete/)
+8. [삭제 가이드](8_Delete/)
