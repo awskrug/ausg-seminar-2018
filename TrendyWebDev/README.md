@@ -64,4 +64,3 @@
 5. [CloudFront로 CDN 구성하기](5_cloudfront/)
 6. [Vue.js 소개](6_vue/)
 7. [Webpack 소개 및 배포 자동화](7_webpack/)
-### 워크샵을 마친 후에 꼭 [삭제 가이드](8_remove/) 에 따라 생성 된 모든 리소스를 삭제해주세요.
