@@ -14,7 +14,7 @@
 #  필수 준비 사항
 
 ## 0. 본 Github Repository를 Download 해주세요!
-중간중간 실습 파일들이 업로드 되어있습니다. 세션 시작 전 미리 다운 받아주세요! [다운로드](#)
+중간중간 실습 파일들이 업로드 되어있습니다. 세션 시작 전 미리 다운 받아주세요! [다운로드](https://github.com/hyukio/ausg-seminar-2018/archive/master.zip)
 
 ## 1. PC 또는 Mac
 본 세션은 코딩 과정이 포함되어 있습니다. 또한 CLI(Command Line Interface) 조작이 꼭 필요합니다. 모바일 환경(iPhone, iPad, Android)에서는 진행이 불가능하니 꼭 PC/Mac 환경에서 진행하세요.
