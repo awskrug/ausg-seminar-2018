@@ -146,7 +146,7 @@ module.exports = {
 
 ![스크린샷](./images/screenshot-2018-02-20-PM-10.27.01.png)
 
-- 에디터로 돌아와서, **Access Key ID**와 **Secret Access Key**, 그리고 아까 전에 확인한 **CloudFront Distribution ID**를 `webpack.prod.js`내 플러그인 옵션에 붙여 넣어줍니다.
+- 에디터로 돌아와서, **Access Key ID**와 **Secret Access Key**, **S3 Bucket 이름** 그리고 아까 전에 확인한 **CloudFront Distribution ID**를 `webpack.prod.js`내 플러그인 옵션에 붙여 넣어줍니다.
 ![스크린샷](./images/screenshot-2018-02-20-PM-10.40.25.png)
 - 이제 다시 빌드하면, 빌드 완료된 번들 파일(HTML, CSS, JS)가 자동으로 S3에 업로드 됩니다
 
