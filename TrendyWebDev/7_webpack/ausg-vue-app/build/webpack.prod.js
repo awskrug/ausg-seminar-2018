@@ -63,7 +63,7 @@ base.plugins.push(
       events:true,
       FALLBACK:{ '/':'/' }
     }
-  }),
+  })
   // 2. 주석을 해제하세요!
   // new S3Plugin(require('./s3.options.js'))
 )
