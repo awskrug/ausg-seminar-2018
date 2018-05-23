@@ -6,12 +6,12 @@
 
 1. [AWS S3 랜딩 페이지 Amazon Web Services](https://s3.console.aws.amazon.com/s3/home?region=ap-northeast-2) 페이지에 접속합니다
 
-2. **버킷 만들기**를 클릭 한뒤 버킷 이름 **ausg-'YOURNAME'-origin** 생성합니다
+2. **버킷 만들기**를 클릭 한뒤 버킷 이름 **ausg-'YOURNAME'** 생성합니다
 ![create_s3_bucket](./images/create_s3_bucket.png)
 
 3. 버킷 이름 **ausg-'YOURNAME'-resized** 으로 버켓을 한개 더 생성 합니다.
 
-4. 다음 버튼을 눌러 버킷 생성 한 뒤, 생성된 origin 버킷에 들어가 **images/** 폴더를 생성합니다.
+4. 다음 버튼을 눌러 버킷 생성 한 뒤, 생성된 **ausg-'YOURNAME'** 버킷에 들어가 **images/** 폴더를 생성합니다.
 ![s3_origin_bucket](./images/s3_origin_bucket.png)
 # 람다 함수 생성하기
 
