@@ -7,5 +7,5 @@ AUSG Hands-on Lab 2018 is bi-weekly HoLs on January and Febrary with topics buil
 * 8 Feb - [Image server to resize automatically with AWS Lambda](ImageResize) (Korean)
 * 22 Feb - [Easy Front-end Web Developments with Amazon S3 and Vue.js](TrendyWebDev) (Korean)
 
-![Poster](https://secure.meetupstatic.com/photos/event/5/b/a/5/600_467843461.jpeg) ![AWSKRUG Hands-on Labs on 2nd June, 2018](https://github.com/awskrug/handson-labs-2018/blob/master/awskrug-hols-2018.jpg)
+![Poster](https://secure.meetupstatic.com/photos/event/5/b/a/5/600_467843461.jpeg) ![AWSKRUG Hands-on Labs on 2nd June, 2018](https://secure.meetupstatic.com/photos/event/4/2/5/2/600_467896978.jpeg)
 
