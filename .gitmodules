@@ -1,0 +1,3 @@
+[submodule "serverless-spa-portfolio"]
+	path = serverless-spa-portfolio
+	url = https://github.com/yoonhoGo/serverless-spa-portfolio
